@@ -1,0 +1,61 @@
+.block-editor div.wp-block.is-selected[data-type="straightvisions/sv-forms"] {
+    min-width: 500px;
+}
+
+.wp-block-straightvisions-sv-forms > .sv_forms_header,
+.wp-block-straightvisions-sv-forms > .sv_forms_body {
+    padding: 20px;
+}
+
+.wp-block-straightvisions-sv-forms > .sv_forms_header {
+    color: white;
+    background: linear-gradient(to right top, #3499ff, #3e80e0, #4167c1, #3f50a3, #3a3985);
+}
+
+.wp-block-straightvisions-sv-forms > .sv_forms_header > .sv_forms_label_wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.wp-block-straightvisions-sv-forms > .sv_forms_header > .sv_forms_label_wrapper > button.components-button {
+    height: auto;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: none !important;
+    outline: none;
+    background-color: transparent !important;
+}
+
+.wp-block-straightvisions-sv-forms > .sv_forms_header > .sv_forms_label_wrapper > button.components-button:hover,
+.wp-block-straightvisions-sv-forms > .sv_forms_header > .sv_forms_label_wrapper > button.components-button:focus {
+    color: #EEEEEE !important;
+}
+
+.wp-block-straightvisions-sv-forms > .sv_forms_header > .sv_forms_label_wrapper > .sv_forms_form_label {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.wp-block-straightvisions-sv-forms > .sv_forms_header > .sv_forms_form_id {
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.wp-block-straightvisions-sv-forms > .sv_forms_header > .sv_forms_title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+// Body
+.wp-block-straightvisions-sv-forms > .sv_forms_body {
+    border: 4px solid;
+    border-image-source: linear-gradient(to right bottom, #3499ff, #3e80e0, #4167c1, #3f50a3, #3a3985);
+    border-image-slice: 1;
+}

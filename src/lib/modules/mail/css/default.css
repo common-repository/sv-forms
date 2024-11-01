@@ -1,0 +1,78 @@
+/* Reset */
+html,
+body {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+address,
+big,
+cite,
+code,
+em,
+font,
+img,
+small,
+strike,
+sub,
+sup,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tr,
+th,
+td {
+	border: none;
+	font-size: inherit;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+	text-align: inherit;
+}
+
+/* Base Styles */
+html {
+	font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+	box-sizing: border-box;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+/* Image Helper */
+img.alignleft {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+img.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignright {
+	margin-left: auto;
+	margin-right: 0;
+}

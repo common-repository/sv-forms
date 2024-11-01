@@ -1,0 +1,19 @@
+.wp-block-straightvisions-sv-forms-submit button {
+	width: auto;
+	cursor: pointer;
+}
+
+.wp-block-straightvisions-sv-forms-submit button,
+.wp-block-straightvisions-sv-forms-submit.alignleft button,
+.wp-block-straightvisions-sv-forms-submit.aligncenter button {
+	margin-right: auto;
+}
+
+.wp-block-straightvisions-sv-forms-submit.aligncenter button,
+.wp-block-straightvisions-sv-forms-submit.alignright button {
+	margin-left: auto;
+}
+
+.wp-block-straightvisions-sv-forms-submit.alignfull button {
+	width: 100%;
+}

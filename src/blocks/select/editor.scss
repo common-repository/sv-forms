@@ -1,0 +1,134 @@
+// Select
+.wp-block-straightvisions-sv-forms-select select.components-select-control__input {
+    min-height: 50px !important;
+}
+
+.wp-block-straightvisions-sv-forms-select .components-flex__item {
+    display: none;
+}
+
+.wp-block-straightvisions-sv-forms-select .components-input-control__backdrop {
+    border: none !important;
+}
+
+// Option Buttons
+.sv-forms-select-options .sv-forms-select-options-buttons .components-button,
+.sv-forms-select-options .sv-forms-template-buttons .components-button {
+    display: flex;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 18px;
+    box-shadow: none !important;
+    transition: background-color .1s ease, border-color .1s ease, color .1s ease;
+}
+
+.sv-forms-select-options .sv-forms-select-options-buttons,
+.sv-forms-select-options .sv-forms-template-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.sv-forms-select-options .sv-forms-select-options-buttons > .components-button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sv-forms-select-options .sv-forms-select-options-buttons > .components-button:first-child {
+    margin-left: 0;
+}
+
+.sv-forms-select-options .sv-forms-select-options-buttons > .components-button:last-child {
+    margin-right: 0;
+}
+
+.sv-forms-select-options .sv-forms-template-buttons .components-button {
+    color: #32373c;
+    border-color: #ededed;
+    background-color: #ededed;
+}
+
+
+.sv-forms-select-options .sv-forms-template-buttons .components-button:hover,
+.sv-forms-select-options .sv-forms-template-buttons .components-button:focus {
+    color: #32373c;
+    border-color: #dcdcdc;
+    background-color: #dcdcdc;
+}
+
+// Add Option Button
+.sv-forms-select-options .components-button.sv-forms-add-option {
+    color: #FFFFFF;
+    border-color: #32373c;
+    background-color: #32373c;
+}
+
+.sv-forms-select-options .components-button.sv-forms-add-option:hover,
+.sv-forms-select-options .components-button.sv-forms-add-option:focus {
+    color: #FFFFFF !important;
+    border-color: #1d2023 !important;
+    background-color: #1d2023 !important;
+}
+
+// Delete Options Button
+.sv-forms-select-options .components-button.sv-forms-delete-options {
+    color: #32373c;
+    border-color: #32373c;
+    background-color: transparent;
+}
+
+.sv-forms-select-options .components-button.sv-forms-delete-options:hover,
+.sv-forms-select-options .components-button.sv-forms-delete-options:focus {
+    color: #e23d54 !important;
+    border-color: #e23d54 !important;
+}
+
+// Options
+.sv-forms-select-options {
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.sv-forms-select-options .sv-forms-select-option {
+    background: rgba( 0, 0, 0, .06 );
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.sv-forms-select-options .sv-forms-select-option > div:last-of-type,
+.sv-forms-select-options .sv-forms-select-option > div:last-of-type > div,
+.sv-forms-select-options .sv-forms-select-option > .sv-forms-select-option-flex > div {
+    margin-bottom: 0 !important;
+}
+
+.sv-forms-select-options .sv-forms-select-option > .sv-forms-select-option-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.sv-forms-select-options .sv-forms-select-option > .sv-forms-select-option-flex > div:first-of-type {
+    margin-right: 5px;
+}
+
+.sv-forms-select-option-flex > .components-base-control.components-toggle-control > .components-base-control__field {
+    margin-bottom: 0;
+}
+
+.sv-forms-select-option-flex > .components-button.has-icon.sv-forms-option-remove {
+    padding: 0;
+    margin-left: 8px;
+    height: auto;
+    transition: color .1s ease;
+}
+
+.sv-forms-select-option-flex > .components-button.has-icon.sv-forms-option-remove:hover,
+.sv-forms-select-option-flex > .components-button.has-icon.sv-forms-option-remove:focus {
+    color: #fd5858 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}

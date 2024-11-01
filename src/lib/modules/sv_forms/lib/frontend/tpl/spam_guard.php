@@ -1,0 +1,1 @@
+<?php $this->start_spam_guard();

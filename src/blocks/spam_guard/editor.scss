@@ -1,0 +1,36 @@
+.wp-block-straightvisions-sv-forms-spam-guard button.components-button.has-icon.has-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    font-size: 16px;
+    color: rgba( 40, 40, 40, .8 );
+    margin: 0 10px;
+    border: none;
+    box-shadow: none !important;
+    outline: none;
+    background-color: transparent !important;
+    transition: color .25s ease;
+}
+
+.wp-block-straightvisions-sv-forms-spam-guard button.components-button.has-icon.has-text:hover,
+.wp-block-straightvisions-sv-forms-spam-guard button.components-button.has-icon.has-text:focus {
+    color: rgb( 40, 40, 40 ) !important;
+}
+
+.wp-block-straightvisions-sv-forms-spam-guard button.components-button.has-icon.has-text.is-active {
+    color: rgba( 24, 195, 66, .8 );
+}
+
+.wp-block-straightvisions-sv-forms-spam-guard button.components-button.has-icon.has-text.is-active:hover,
+.wp-block-straightvisions-sv-forms-spam-guard button.components-button.has-icon.has-text.is-active:focus {
+    color: rgb( 24, 195, 66 ) !important;
+}
+
+.wp-block-straightvisions-sv-forms-spam-guard button.components-button.has-icon.has-text svg {
+    height: 48px;
+    width: 48px;
+    margin-right: 0;
+    margin-bottom: 5px;
+}

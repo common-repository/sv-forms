@@ -1,0 +1,38 @@
+ul, ol {
+    margin: 0 0 3rem 3rem;
+}
+
+ul {
+    list-style: disc;
+}
+
+ul ul {
+    list-style: circle;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ol ol {
+    list-style: lower-alpha;
+}
+
+li {
+    line-height: 1.4;
+    margin: 0.5rem 0 0 2rem;
+}
+
+li > ul, li > ol {
+    margin: 1rem 0 0 2rem;
+}
+
+@media (min-width: 700px) {
+    ul, ol {
+        margin-bottom: 4rem;
+    }
+
+    li {
+        line-height: 1.476;
+    }
+}

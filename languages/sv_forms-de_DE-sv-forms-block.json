@@ -1,0 +1,540 @@
+{
+    "translation-revision-date": "2020-09-11 18:36+0200",
+    "generator": "WP-CLI\/2.5.0-alpha",
+    "source": "dist\/blocks.build.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "de_DE",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "SV Forms": [
+                "SV Forms"
+            ],
+            "Create a form.": [
+                "Erstelle ein Formular."
+            ],
+            "Form": [
+                "Formular"
+            ],
+            "Contact Form": [
+                "Kontaktformular"
+            ],
+            "Meta Field _sv_forms_forms was cleard.": [
+                "Meta Feld _sv_forms_forms wurde geleert."
+            ],
+            "Form Settings": [
+                "Formulareinstellungen"
+            ],
+            "Form Label": [
+                "Formular Beschriftung"
+            ],
+            "Save Submissions": [
+                "Speicher Formulardaten"
+            ],
+            "Clear SV Forms Meta Field": [
+                "Leere SV Forms Meta Felder"
+            ],
+            "This block holds the form itself.": [
+                "Dieser Block enth\u00e4lt das Formular selbst."
+            ],
+            "SV Forms Form": [
+                "SV Forms Form"
+            ],
+            "Form Block": [
+                "Formularblock"
+            ],
+            "Name": [
+                "Name"
+            ],
+            "E-Mail": [
+                "E-Mail"
+            ],
+            "Message": [
+                "Nachricht"
+            ],
+            "Send": [
+                "Senden"
+            ],
+            "Input Placeholder Color": [
+                "Platzhalter Farbe"
+            ],
+            "Color Settings": [
+                "Farbeinstellungen"
+            ],
+            "Thank You Message": [
+                "Dankesnachricht"
+            ],
+            "This message will be shown to users, who submitted this form.": [
+                "Diese Meldung wird Benutzern angezeigt, die dieses Formular gesendet haben."
+            ],
+            "SV Forms Thank You": [
+                "SV Forms Thank You"
+            ],
+            "Thank You Page": [
+                "Danke- Seite"
+            ],
+            " copied to clippboard.": [
+                " in die Zwischenablage kopiert."
+            ],
+            "Copy to clippboard.": [
+                "In die Zwischenablage kopieren."
+            ],
+            "Available input values: ": [
+                "Verf\u00fcgbare Eingabewerte: "
+            ],
+            "Thank you <strong>%name%<\/strong>!": [
+                "Vielen Dank <strong>%name%<\/strong>!"
+            ],
+            "Your message has been successfully sent. We will contact you very soon!": [
+                "Ihre Nachricht wurde erfolgreich gesendet. Wir werden uns in K\u00fcrze mit Ihnen in Verbindung setzen!"
+            ],
+            "User Mail": [
+                "Benutzer-Mail"
+            ],
+            "Create a mail that the user will recieve, when submitting the form.": [
+                "Erstelle eine E-Mail, die der Benutzer beim Absenden des Formulars erh\u00e4lt."
+            ],
+            "SV Forms User Mail": [
+                "SV Forms User Mail"
+            ],
+            "Mail Settings": [
+                "Mail-Einstellungen"
+            ],
+            "Send Mail": [
+                "Mail senden"
+            ],
+            "Mail Subject": [
+                "Betreff"
+            ],
+            "Mail From - Title": [
+                "Mail von - Titel"
+            ],
+            "Mail From - E-Mail": [
+                "Mail von - E-Mail"
+            ],
+            "Send to Mails": [
+                "An Mails senden"
+            ],
+            "Select E-Mail Blocks:": [
+                "E-Mail-Bl\u00f6cke ausw\u00e4hlen:"
+            ],
+            "Reset Selection": [
+                "Auswahl leeren"
+            ],
+            "Admin Mail": [
+                "Admin-Mail"
+            ],
+            "Create a mail that the admin\/author will recieve, when the form is submitted.": [
+                "Erstelle eine E-Mail, die der Administrator\/Autor erh\u00e4lt, wenn das Formular gesendet wird."
+            ],
+            "SV Forms Admin Mail": [
+                "SV Forms Admin Mail"
+            ],
+            "Send to Authors": [
+                "Senden an Autoren"
+            ],
+            "Select User:": [
+                "Benutzer ausw\u00e4hlen:"
+            ],
+            "Add E-Mail": [
+                "E-Mail hinzuf\u00fcgen"
+            ],
+            "Delete E-Mail": [
+                "E-Mail l\u00f6schen"
+            ],
+            "Spam Guard": [
+                "Spam Guard"
+            ],
+            "Provides features to prevent spam in your form.": [
+                "Stellt Funktionen bereit, um Spam im Formular zu verhindern."
+            ],
+            "SV Forms Spam Guard": [
+                "SV Forms Spam Guard"
+            ],
+            "Anti Spam": [
+                "Anti-Spam"
+            ],
+            "Select your anti spam features.": [
+                "W\u00e4hle deine Anti-Spam-Funktionen."
+            ],
+            "Honeypot": [
+                "Honeypot"
+            ],
+            "Time Trap": [
+                "Time Trap"
+            ],
+            "Time Trap Settings": [
+                "Time Trap Einstellungen"
+            ],
+            "Time Window": [
+                "Zeitfenster"
+            ],
+            "The amount of seconds that has to passs after page load, before the form will accept submissions.": [
+                "Die Anzahl der Sekunden, die nach dem Laden der Seite vergehen m\u00fcssen, bevor das Formular \u00dcbermittlungen akzeptiert."
+            ],
+            "Text": [
+                "Text"
+            ],
+            "A field for short texts.": [
+                "Ein Feld f\u00fcr kurze Texte."
+            ],
+            "SV Forms Text": [
+                "SV Forms Text"
+            ],
+            "Text Input": [
+                "Texteingabe"
+            ],
+            "This input name is already in use!": [
+                "Dieser Eingabename wird bereits verwendet!"
+            ],
+            "Input Settings": [
+                "Eingabeeinstellungen"
+            ],
+            "Placeholder": [
+                "Platzhalter"
+            ],
+            "Label Settings": [
+                "Label-Einstellungen"
+            ],
+            "Label": [
+                "Beschriftung"
+            ],
+            "Input": [
+                "Eingabe"
+            ],
+            "Input Background": [
+                "Eingabe-Hintergrund"
+            ],
+            "Input Border": [
+                "Eingabe-Border"
+            ],
+            "Border Settings": [
+                "Border Einstellungen"
+            ],
+            "Border Style": [
+                "Border Style"
+            ],
+            "Solid": [
+                "Solid"
+            ],
+            "Dotted": [
+                "Dotted"
+            ],
+            "Dashed": [
+                "Dashed"
+            ],
+            "Double": [
+                "Double"
+            ],
+            "Groove": [
+                "Groove"
+            ],
+            "Ridge": [
+                "Ridge"
+            ],
+            "Inset": [
+                "Inset"
+            ],
+            "Outset": [
+                "Outset"
+            ],
+            "Hidden": [
+                "Hidden"
+            ],
+            "None": [
+                "None"
+            ],
+            "Border Width": [
+                "Border Breite"
+            ],
+            "Border Radius": [
+                "Border Radius"
+            ],
+            "Validation Settings": [
+                "Verifizierungs-Einstellungen"
+            ],
+            "Required": [
+                "Erforderlich"
+            ],
+            "Min. Length": [
+                "Min. L\u00e4nge"
+            ],
+            "Defines the min. character length.": [
+                "Definiert die min. Zeichenl\u00e4nge."
+            ],
+            "Max. Length": [
+                "Max. L\u00e4nge"
+            ],
+            "Defines the max. character length.": [
+                "Definiert die max. Zeichenl\u00e4nge."
+            ],
+            "Autofocus": [
+                "Autofokus"
+            ],
+            "Autocomplete": [
+                "Autovervollst\u00e4ndigung"
+            ],
+            "Read Only": [
+                "Nur lesbar"
+            ],
+            "Disabled": [
+                "Deaktiviert"
+            ],
+            "A field for an e-mail adress.": [
+                "Ein Feld f\u00fcr eine E-Mail-Adresse."
+            ],
+            "SV Forms E-Mail": [
+                "SV Forms E-Mail"
+            ],
+            "E-Mail Input": [
+                "E-Mail-Eingabe"
+            ],
+            "URL": [
+                "URL"
+            ],
+            "A field for an URL.": [
+                "Ein Feld f\u00fcr eine URL."
+            ],
+            "SV Forms URL": [
+                "SV Forms URL"
+            ],
+            "URL Input": [
+                "URL-Eingabe"
+            ],
+            "Number": [
+                "Nummer"
+            ],
+            "A field for numbers.": [
+                "Ein Feld f\u00fcr Zahlen."
+            ],
+            "SV Forms Number": [
+                "SV Forms Number"
+            ],
+            "Number Input": [
+                "Zahleneingabe"
+            ],
+            "Min Value": [
+                "Min. Wert"
+            ],
+            "Defines the min value.": [
+                "Definiert den minimalen Wert."
+            ],
+            "Max Value": [
+                "Max. Wert"
+            ],
+            "Defines the max value.": [
+                "Definiert den maximalen Wert."
+            ],
+            "Step": [
+                "Schritt"
+            ],
+            "Defines the values steps.": [
+                "Definiert die Werteschritte."
+            ],
+            "Phone": [
+                "Telefon"
+            ],
+            "A field for phone numbers.": [
+                "Ein Feld f\u00fcr Telefonnummern."
+            ],
+            "SV Forms Phone": [
+                "SV Forms Phone"
+            ],
+            "Phone Input": [
+                "Telefoneingabe"
+            ],
+            "Textarea": [
+                "Textbereich"
+            ],
+            "A field for long messages.": [
+                "Ein Feld f\u00fcr lange Nachrichten."
+            ],
+            "SV Forms Textarea": [
+                "SV Forms Textarea"
+            ],
+            "Textarea Input": [
+                "Textbereich Eingabe"
+            ],
+            "Textarea Settings": [
+                "Textbereichseinstellungen"
+            ],
+            "Textarea Background": [
+                "Textbereich Hintergrund"
+            ],
+            "Checkbox": [
+                "Checkbox"
+            ],
+            "A checkbox that can be checked.": [
+                "Ein Kontrollk\u00e4stchen, das aktiviert werden kann."
+            ],
+            "SV Forms Checkbox": [
+                "SV Forms Checkbox"
+            ],
+            "Checkbox Input": [
+                "Checkbox Eingabe"
+            ],
+            "Value": [
+                "Wert"
+            ],
+            "Radio Button": [
+                "Radio Button"
+            ],
+            "Create a radio button.": [
+                "Erstellen Sie ein Optionsfeld."
+            ],
+            "SV Forms Radio Button": [
+                "SV Forms Radio Button"
+            ],
+            "Radio": [
+                "Radio"
+            ],
+            "Option": [
+                "Optionen"
+            ],
+            "Options": [
+                "Einstellungen"
+            ],
+            "Add Option": [
+                "Option hinzuf\u00fcgen"
+            ],
+            "Delete Option": [
+                "Option l\u00f6schen"
+            ],
+            "Select": [
+                "Ausw\u00e4hlen"
+            ],
+            "Create a select field.": [
+                "Erstelle ein Auswahlfeld."
+            ],
+            "SV Forms Select": [
+                "SV Forms Select"
+            ],
+            "Select Field": [
+                "Auswahlfeld"
+            ],
+            "Please select...": [
+                "Bitte w\u00e4hlen..."
+            ],
+            "Countries": [
+                "L\u00e4nder"
+            ],
+            "Delete Options": [
+                "Optionen l\u00f6schen"
+            ],
+            "Submit Button": [
+                "Absenden Button"
+            ],
+            "The submit button for the form.": [
+                "Die Schaltfl\u00e4che \"Absenden\" f\u00fcr das Formular."
+            ],
+            "SV Forms Submit": [
+                "SV Forms Submit"
+            ],
+            "Submit": [
+                "Senden"
+            ],
+            "Button": [
+                "Button"
+            ],
+            "Background": [
+                "Hintergrund"
+            ],
+            "Border": [
+                "Border"
+            ],
+            "Password": [
+                "Kennwort"
+            ],
+            "A field for passwords.": [
+                "Ein Feld f\u00fcr Kennw\u00f6rter."
+            ],
+            "SV Forms Password": [
+                "SV Forms Password"
+            ],
+            "Password Input": [
+                "Kennworteingabe"
+            ],
+            "Date": [
+                "Datum"
+            ],
+            "A field for for dates.": [
+                "Ein Feld f\u00fcr Datumsangaben."
+            ],
+            "SV Forms Date": [
+                "SV Forms Date"
+            ],
+            "Date Input": [
+                "Datum Eingabe"
+            ],
+            "Range": [
+                "Range"
+            ],
+            "A field for range.": [
+                "Ein Feld f\u00fcr reichweite."
+            ],
+            "SV Forms Range": [
+                "SV Forms Range"
+            ],
+            "Range Input": [
+                "Reichweiten-Eingabe"
+            ],
+            "Horizontal": [
+                "Horizontal"
+            ],
+            "Vertical": [
+                "Vertikal"
+            ],
+            "Min": [
+                "Min"
+            ],
+            "Max": [
+                "Max"
+            ],
+            "Defines the step value.": [
+                "Definiert den Schrittwert."
+            ],
+            "Display Settings": [
+                "Anzeigeneinstellungen"
+            ],
+            "Show Value": [
+                "Wert anzeigen"
+            ],
+            "Show Min": [
+                "Min anzeigen"
+            ],
+            "Show Max": [
+                "Max anzeigen"
+            ],
+            "File": [
+                "Datei"
+            ],
+            "A field for file uploads.": [
+                "Ein Feld f\u00fcr Datei-Uploads."
+            ],
+            "SV Forms File": [
+                "SV Forms File"
+            ],
+            "File Input": [
+                "Datei Eingabe"
+            ],
+            "Upload": [
+                "Hochladen"
+            ],
+            "A field that is hidden.": [
+                "Ein ausgeblendetes Feld."
+            ],
+            "SV Forms Hidden": [
+                "SV Forms Hidden"
+            ],
+            "Hidden Input": [
+                "Versteckte Eingabe"
+            ],
+            "Hidden Input: ": [
+                "Versteckte Eingabe: "
+            ]
+        }
+    }
+}

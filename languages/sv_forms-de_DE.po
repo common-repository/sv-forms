@@ -1,0 +1,1948 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SV Forms\n"
+"POT-Creation-Date: 2023-02-27 17:11+0100\n"
+"PO-Revision-Date: 2023-02-27 17:12+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sv_forms.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#. Plugin Name of the plugin/theme
+#: dist/blocks.build.js:1 src/blocks/wrapper/edit.js:159
+#: src/blocks/wrapper/index.js:11 src/blocks/wrapper/index.js:16
+msgid "SV Forms"
+msgstr "SV Forms"
+
+#: dist/blocks.build.js:1 src/blocks/wrapper/index.js:12
+msgid "Create a form."
+msgstr "Erstelle ein Formular."
+
+#: dist/blocks.build.js:1 src/blocks/form/edit.js:110
+#: src/blocks/form/index.js:11 src/blocks/wrapper/index.js:17
+#: src/lib/modules/taxonomy/taxonomy.php:13
+msgid "Form"
+msgstr "Formular"
+
+#: dist/blocks.build.js:1 src/blocks/form/index.js:19
+#: src/blocks/wrapper/index.js:18 src/blocks/wrapper/index.js:26
+#: src/blocks/wrapper/index.js:39
+msgid "Contact Form"
+msgstr "Kontaktformular"
+
+#: dist/blocks.build.js:1
+#: src/blocks/wrapper/components/inspector_controls/form_settings.js:38
+msgid "Form Settings"
+msgstr "Formulareinstellungen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/wrapper/components/inspector_controls/form_settings.js:42
+msgid "Form Label"
+msgstr "Formular Beschriftung"
+
+#: dist/blocks.build.js:1
+#: src/blocks/wrapper/components/inspector_controls/form_settings.js:48
+msgid "Save Submissions"
+msgstr "Speicher Formulardaten"
+
+#: dist/blocks.build.js:1
+#: src/blocks/wrapper/components/inspector_controls/form_settings.js:56
+msgid "Clear SV Forms Meta Field"
+msgstr "Leere SV Forms Meta Felder"
+
+#: dist/blocks.build.js:1 src/blocks/form/index.js:12
+msgid "This block holds the form itself."
+msgstr "Dieser Block enthält das Formular selbst."
+
+#: dist/blocks.build.js:1 src/blocks/form/index.js:17
+msgid "SV Forms Form"
+msgstr "SV Forms Form"
+
+#: dist/blocks.build.js:1 src/blocks/form/index.js:18
+msgid "Form Block"
+msgstr "Formularblock"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/input_settings.js:102
+#: src/blocks/email/components/inspector_controls/input_settings.js:104
+#: src/blocks/file/components/inspector_controls/input_settings.js:102
+#: src/blocks/form/edit.js:21
+#: src/blocks/hidden/components/inspector_controls/input_settings.js:94
+#: src/blocks/number/components/inspector_controls/input_settings.js:104
+#: src/blocks/password/components/inspector_controls/input_settings.js:104
+#: src/blocks/phone/components/inspector_controls/input_settings.js:104
+#: src/blocks/radio/components/inspector_controls/input_settings.js:103
+#: src/blocks/range/components/inspector_controls/input_settings.js:101
+#: src/blocks/select/components/inspector_controls/input_settings.js:102
+#: src/blocks/text/components/inspector_controls/input_settings.js:104
+#: src/blocks/textarea/components/inspector_controls/textarea_settings.js:104
+#: src/blocks/url/components/inspector_controls/input_settings.js:104
+msgid "Name"
+msgstr "Name"
+
+#: dist/blocks.build.js:1
+#: src/blocks/admin_mail/components/inspector_controls/send_to_mails.js:73
+#: src/blocks/email/index.js:10 src/blocks/email/index.js:24
+#: src/blocks/email/index.js:47 src/blocks/email/index.php:57
+#: src/blocks/form/edit.js:25
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: dist/blocks.build.js:1 src/blocks/form/edit.js:29
+msgid "Message"
+msgstr "Nachricht"
+
+#: dist/blocks.build.js:1 src/blocks/form/edit.js:34
+#: src/blocks/submit/index.js:33 src/blocks/submit/index.php:46
+msgid "Send"
+msgstr "Senden"
+
+#: dist/blocks.build.js:1
+#: src/blocks/form/components/inspector_controls/input_settings.js:22
+msgid "Input Placeholder Color"
+msgstr "Platzhalter Farbe"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/color_settings.js:85
+#: src/blocks/email/components/inspector_controls/color_settings.js:85
+#: src/blocks/file/components/inspector_controls/color_settings.js:85
+#: src/blocks/form/components/inspector_controls/input_settings.js:28
+#: src/blocks/number/components/inspector_controls/color_settings.js:85
+#: src/blocks/password/components/inspector_controls/color_settings.js:85
+#: src/blocks/phone/components/inspector_controls/color_settings.js:85
+#: src/blocks/radio/components/inspector_controls/color_settings.js:74
+#: src/blocks/range/components/inspector_controls/color_settings.js:56
+#: src/blocks/select/components/inspector_controls/color_settings.js:85
+#: src/blocks/submit/components/inspector_controls/color_settings.js:74
+#: src/blocks/text/components/inspector_controls/color_settings.js:85
+#: src/blocks/textarea/components/inspector_controls/color_settings.js:85
+#: src/blocks/url/components/inspector_controls/color_settings.js:85
+msgid "Color Settings"
+msgstr "Farbeinstellungen"
+
+#: dist/blocks.build.js:1 src/blocks/thank_you/edit.js:133
+#: src/blocks/thank_you/index.js:11 src/blocks/thank_you/index.js:18
+msgid "Thank You Message"
+msgstr "Dankesnachricht"
+
+#: dist/blocks.build.js:1 src/blocks/thank_you/index.js:12
+msgid "This message will be shown to users, who submitted this form."
+msgstr ""
+"Diese Meldung wird Benutzern angezeigt, die dieses Formular gesendet haben."
+
+#: dist/blocks.build.js:1 src/blocks/thank_you/index.js:17
+msgid "SV Forms Thank You"
+msgstr "SV Forms Thank You"
+
+#: dist/blocks.build.js:1 src/blocks/thank_you/index.js:19
+msgid "Thank You Page"
+msgstr "Danke- Seite"
+
+#: dist/blocks.build.js:1 src/blocks/admin_mail/edit.js:100
+#: src/blocks/thank_you/edit.js:79 src/blocks/user_mail/edit.js:100
+msgid " copied to clippboard."
+msgstr " in die Zwischenablage kopiert."
+
+#: dist/blocks.build.js:1 src/blocks/admin_mail/edit.js:110
+#: src/blocks/thank_you/edit.js:89 src/blocks/user_mail/edit.js:110
+msgid "Copy to clippboard."
+msgstr "In die Zwischenablage kopieren."
+
+#: dist/blocks.build.js:1 src/blocks/admin_mail/edit.js:161
+#: src/blocks/thank_you/edit.js:139 src/blocks/user_mail/edit.js:160
+msgid "Available input values: "
+msgstr "Verfügbare Eingabewerte: "
+
+#: dist/blocks.build.js:1 src/blocks/thank_you/edit.js:18
+msgid "Thank you <strong>%name%</strong>!"
+msgstr "Vielen Dank <strong>%name%</strong>!"
+
+#: dist/blocks.build.js:1 src/blocks/thank_you/edit.js:21
+msgid "Your message has been successfully sent. We will contact you very soon!"
+msgstr ""
+"Ihre Nachricht wurde erfolgreich gesendet. Wir werden uns in Kürze mit Ihnen "
+"in Verbindung setzen!"
+
+#: dist/blocks.build.js:1 src/blocks/admin_mail/index.js:19
+#: src/blocks/user_mail/edit.js:154 src/blocks/user_mail/index.js:11
+#: src/blocks/user_mail/index.js:18 src/blocks/user_mail/index.js:19
+msgid "User Mail"
+msgstr "Benutzer-Mail"
+
+#: dist/blocks.build.js:1 src/blocks/user_mail/index.js:12
+msgid "Create a mail that the user will recieve, when submitting the form."
+msgstr ""
+"Erstelle eine E-Mail, die der Benutzer beim Absenden des Formulars erhält."
+
+#: dist/blocks.build.js:1 src/blocks/user_mail/index.js:17
+msgid "SV Forms User Mail"
+msgstr "SV Forms User Mail"
+
+#: dist/blocks.build.js:1
+#: src/blocks/admin_mail/components/inspector_controls/mail_settings.js:31
+#: src/blocks/user_mail/components/inspector_controls/mail_settings.js:31
+msgid "Mail Settings"
+msgstr "Mail-Einstellungen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/admin_mail/components/inspector_controls/mail_settings.js:35
+#: src/blocks/user_mail/components/inspector_controls/mail_settings.js:35
+msgid "Send Mail"
+msgstr "Mail senden"
+
+#: dist/blocks.build.js:1
+#: src/blocks/admin_mail/components/inspector_controls/mail_settings.js:40
+#: src/blocks/user_mail/components/inspector_controls/mail_settings.js:40
+msgid "Mail Subject"
+msgstr "Betreff"
+
+#: dist/blocks.build.js:1
+#: src/blocks/admin_mail/components/inspector_controls/mail_settings.js:45
+#: src/blocks/user_mail/components/inspector_controls/mail_settings.js:45
+msgid "Mail From - Title"
+msgstr "Mail von - Titel"
+
+#: dist/blocks.build.js:1
+#: src/blocks/admin_mail/components/inspector_controls/mail_settings.js:50
+#: src/blocks/user_mail/components/inspector_controls/mail_settings.js:50
+msgid "Mail From - E-Mail"
+msgstr "Mail von - E-Mail"
+
+#: dist/blocks.build.js:1
+#: src/blocks/admin_mail/components/inspector_controls/send_to_mails.js:56
+#: src/blocks/user_mail/components/inspector_controls/send_to_mails.js:74
+msgid "Send to Mails"
+msgstr "An Mails senden"
+
+#: dist/blocks.build.js:1
+#: src/blocks/user_mail/components/inspector_controls/send_to_mails.js:81
+msgid "Select E-Mail Blocks:"
+msgstr "E-Mail-Blöcke auswählen:"
+
+#: dist/blocks.build.js:1
+#: src/blocks/admin_mail/components/inspector_controls/send_to_authors.js:71
+#: src/blocks/user_mail/components/inspector_controls/send_to_mails.js:90
+msgid "Reset Selection"
+msgstr "Auswahl leeren"
+
+#: dist/blocks.build.js:1 src/blocks/admin_mail/edit.js:155
+#: src/blocks/admin_mail/index.js:11 src/blocks/admin_mail/index.js:18
+msgid "Admin Mail"
+msgstr "Admin-Mail"
+
+#: dist/blocks.build.js:1 src/blocks/admin_mail/index.js:12
+msgid ""
+"Create a mail that the admin/author will recieve, when the form is submitted."
+msgstr ""
+"Erstelle eine E-Mail, die der Administrator/Autor erhält, wenn das Formular "
+"gesendet wird."
+
+#: dist/blocks.build.js:1 src/blocks/admin_mail/index.js:17
+msgid "SV Forms Admin Mail"
+msgstr "SV Forms Admin Mail"
+
+#: dist/blocks.build.js:1
+#: src/blocks/admin_mail/components/inspector_controls/send_to_authors.js:55
+msgid "Send to Authors"
+msgstr "Senden an Autoren"
+
+#: dist/blocks.build.js:1
+#: src/blocks/admin_mail/components/inspector_controls/send_to_authors.js:62
+msgid "Select User:"
+msgstr "Benutzer auswählen:"
+
+#: dist/blocks.build.js:1
+#: src/blocks/admin_mail/components/inspector_controls/send_to_mails.js:64
+msgid "Add E-Mail"
+msgstr "E-Mail hinzufügen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/admin_mail/components/inspector_controls/send_to_mails.js:78
+msgid "Delete E-Mail"
+msgstr "E-Mail löschen"
+
+#: dist/blocks.build.js:1 src/blocks/spam_guard/edit.js:62
+#: src/blocks/spam_guard/index.js:10 src/blocks/spam_guard/index.js:17
+msgid "Spam Guard"
+msgstr "Spam Guard"
+
+#: dist/blocks.build.js:1 src/blocks/spam_guard/index.js:11
+msgid "Provides features to prevent spam in your form."
+msgstr "Stellt Funktionen bereit, um Spam im Formular zu verhindern."
+
+#: dist/blocks.build.js:1 src/blocks/spam_guard/index.js:16
+msgid "SV Forms Spam Guard"
+msgstr "SV Forms Spam Guard"
+
+#: dist/blocks.build.js:1 src/blocks/spam_guard/index.js:18
+msgid "Anti Spam"
+msgstr "Anti-Spam"
+
+#: dist/blocks.build.js:1 src/blocks/spam_guard/edit.js:63
+msgid "Select your anti spam features."
+msgstr "Wähle deine Anti-Spam-Funktionen."
+
+#: dist/blocks.build.js:1 src/blocks/spam_guard/edit.js:70
+msgid "Honeypot"
+msgstr "Honeypot"
+
+#: dist/blocks.build.js:1 src/blocks/spam_guard/edit.js:77
+msgid "Time Trap"
+msgstr "Time Trap"
+
+#: dist/blocks.build.js:1
+#: src/blocks/spam_guard/components/inspector_controls/timetrap_settings.js:24
+msgid "Time Trap Settings"
+msgstr "Time Trap Einstellungen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/spam_guard/components/inspector_controls/timetrap_settings.js:28
+msgid "Time Window"
+msgstr "Zeitfenster"
+
+#: dist/blocks.build.js:1
+#: src/blocks/spam_guard/components/inspector_controls/timetrap_settings.js:29
+msgid ""
+"The amount of seconds that has to passs after page load, before the form "
+"will accept submissions."
+msgstr ""
+"Die Anzahl der Sekunden, die nach dem Laden der Seite vergehen müssen, bevor "
+"das Formular Übermittlungen akzeptiert."
+
+#: dist/blocks.build.js:1
+#: src/blocks/submit/components/inspector_controls/color_settings.js:55
+#: src/blocks/text/index.js:10 src/blocks/text/index.js:24
+#: src/blocks/text/index.js:47 src/blocks/text/index.php:57
+msgid "Text"
+msgstr "Text"
+
+#: dist/blocks.build.js:1 src/blocks/text/index.js:11
+msgid "A field for short texts."
+msgstr "Ein Feld für kurze Texte."
+
+#: dist/blocks.build.js:1 src/blocks/text/index.js:22
+msgid "SV Forms Text"
+msgstr "SV Forms Text"
+
+#: dist/blocks.build.js:1 src/blocks/text/index.js:23
+msgid "Text Input"
+msgstr "Texteingabe"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/input_settings.js:49
+#: src/blocks/email/components/inspector_controls/input_settings.js:51
+#: src/blocks/file/components/inspector_controls/input_settings.js:49
+#: src/blocks/hidden/components/inspector_controls/input_settings.js:41
+#: src/blocks/number/components/inspector_controls/input_settings.js:51
+#: src/blocks/password/components/inspector_controls/input_settings.js:51
+#: src/blocks/phone/components/inspector_controls/input_settings.js:51
+#: src/blocks/radio/components/inspector_controls/input_settings.js:45
+#: src/blocks/range/components/inspector_controls/input_settings.js:43
+#: src/blocks/select/components/inspector_controls/input_settings.js:49
+#: src/blocks/text/components/inspector_controls/input_settings.js:51
+#: src/blocks/textarea/components/inspector_controls/textarea_settings.js:51
+#: src/blocks/url/components/inspector_controls/input_settings.js:51
+msgid "This input name is already in use!"
+msgstr "Dieser Eingabename wird bereits verwendet!"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/input_settings.js:98
+#: src/blocks/email/components/inspector_controls/input_settings.js:100
+#: src/blocks/file/components/inspector_controls/input_settings.js:98
+#: src/blocks/hidden/components/inspector_controls/input_settings.js:90
+#: src/blocks/number/components/inspector_controls/input_settings.js:100
+#: src/blocks/password/components/inspector_controls/input_settings.js:100
+#: src/blocks/phone/components/inspector_controls/input_settings.js:100
+#: src/blocks/radio/components/inspector_controls/input_settings.js:94
+#: src/blocks/range/components/inspector_controls/input_settings.js:92
+#: src/blocks/select/components/inspector_controls/input_settings.js:98
+#: src/blocks/text/components/inspector_controls/input_settings.js:100
+#: src/blocks/url/components/inspector_controls/input_settings.js:100
+msgid "Input Settings"
+msgstr "Eingabeeinstellungen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/email/components/inspector_controls/input_settings.js:113
+#: src/blocks/number/components/inspector_controls/input_settings.js:113
+#: src/blocks/password/components/inspector_controls/input_settings.js:113
+#: src/blocks/phone/components/inspector_controls/input_settings.js:113
+#: src/blocks/text/components/inspector_controls/input_settings.js:113
+#: src/blocks/textarea/components/inspector_controls/textarea_settings.js:113
+#: src/blocks/url/components/inspector_controls/input_settings.js:113
+msgid "Placeholder"
+msgstr "Platzhalter"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/label_settings.js:28
+#: src/blocks/email/components/inspector_controls/label_settings.js:28
+#: src/blocks/file/components/inspector_controls/label_settings.js:28
+#: src/blocks/number/components/inspector_controls/label_settings.js:28
+#: src/blocks/password/components/inspector_controls/label_settings.js:28
+#: src/blocks/phone/components/inspector_controls/label_settings.js:28
+#: src/blocks/select/components/inspector_controls/label_settings.js:28
+#: src/blocks/text/components/inspector_controls/label_settings.js:28
+#: src/blocks/textarea/components/inspector_controls/label_settings.js:28
+#: src/blocks/url/components/inspector_controls/label_settings.js:28
+msgid "Label Settings"
+msgstr "Label-Einstellungen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/color_settings.js:58
+#: src/blocks/date/components/inspector_controls/label_settings.js:32
+#: src/blocks/email/components/inspector_controls/color_settings.js:58
+#: src/blocks/email/components/inspector_controls/label_settings.js:32
+#: src/blocks/file/components/inspector_controls/color_settings.js:58
+#: src/blocks/file/components/inspector_controls/label_settings.js:32
+#: src/blocks/number/components/inspector_controls/color_settings.js:58
+#: src/blocks/number/components/inspector_controls/label_settings.js:32
+#: src/blocks/password/components/inspector_controls/color_settings.js:58
+#: src/blocks/password/components/inspector_controls/label_settings.js:32
+#: src/blocks/phone/components/inspector_controls/color_settings.js:58
+#: src/blocks/phone/components/inspector_controls/label_settings.js:32
+#: src/blocks/radio/components/inspector_controls/color_settings.js:55
+#: src/blocks/radio/components/inspector_controls/input_settings.js:98
+#: src/blocks/radio/components/inspector_controls/options.js:77
+#: src/blocks/range/components/inspector_controls/color_settings.js:50
+#: src/blocks/range/components/inspector_controls/input_settings.js:96
+#: src/blocks/select/components/inspector_controls/color_settings.js:58
+#: src/blocks/select/components/inspector_controls/label_settings.js:32
+#: src/blocks/select/components/inspector_controls/options.js:113
+#: src/blocks/text/components/inspector_controls/color_settings.js:58
+#: src/blocks/text/components/inspector_controls/label_settings.js:32
+#: src/blocks/textarea/components/inspector_controls/color_settings.js:58
+#: src/blocks/textarea/components/inspector_controls/label_settings.js:32
+#: src/blocks/url/components/inspector_controls/color_settings.js:58
+#: src/blocks/url/components/inspector_controls/label_settings.js:32
+msgid "Label"
+msgstr "Beschriftung"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/color_settings.js:66
+#: src/blocks/email/components/inspector_controls/color_settings.js:66
+#: src/blocks/file/components/inspector_controls/color_settings.js:66
+#: src/blocks/number/components/inspector_controls/color_settings.js:66
+#: src/blocks/password/components/inspector_controls/color_settings.js:66
+#: src/blocks/phone/components/inspector_controls/color_settings.js:66
+#: src/blocks/select/components/inspector_controls/color_settings.js:66
+#: src/blocks/text/components/inspector_controls/color_settings.js:66
+#: src/blocks/url/components/inspector_controls/color_settings.js:66
+msgid "Input"
+msgstr "Eingabe"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/color_settings.js:74
+#: src/blocks/email/components/inspector_controls/color_settings.js:74
+#: src/blocks/file/components/inspector_controls/color_settings.js:74
+#: src/blocks/number/components/inspector_controls/color_settings.js:74
+#: src/blocks/password/components/inspector_controls/color_settings.js:74
+#: src/blocks/phone/components/inspector_controls/color_settings.js:74
+#: src/blocks/radio/components/inspector_controls/color_settings.js:63
+#: src/blocks/select/components/inspector_controls/color_settings.js:74
+#: src/blocks/text/components/inspector_controls/color_settings.js:74
+#: src/blocks/url/components/inspector_controls/color_settings.js:74
+msgid "Input Background"
+msgstr "Eingabe-Hintergrund"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/color_settings.js:79
+#: src/blocks/email/components/inspector_controls/color_settings.js:79
+#: src/blocks/file/components/inspector_controls/color_settings.js:79
+#: src/blocks/number/components/inspector_controls/color_settings.js:79
+#: src/blocks/password/components/inspector_controls/color_settings.js:79
+#: src/blocks/phone/components/inspector_controls/color_settings.js:79
+#: src/blocks/radio/components/inspector_controls/color_settings.js:68
+#: src/blocks/select/components/inspector_controls/color_settings.js:79
+#: src/blocks/text/components/inspector_controls/color_settings.js:79
+#: src/blocks/textarea/components/inspector_controls/color_settings.js:79
+#: src/blocks/url/components/inspector_controls/color_settings.js:79
+msgid "Input Border"
+msgstr "Eingabe-Border"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/border_settings.js:46
+#: src/blocks/email/components/inspector_controls/border_settings.js:46
+#: src/blocks/file/components/inspector_controls/border_settings.js:46
+#: src/blocks/number/components/inspector_controls/border_settings.js:46
+#: src/blocks/password/components/inspector_controls/border_settings.js:46
+#: src/blocks/phone/components/inspector_controls/border_settings.js:46
+#: src/blocks/radio/components/inspector_controls/border_settings.js:46
+#: src/blocks/select/components/inspector_controls/border_settings.js:46
+#: src/blocks/submit/components/inspector_controls/border_settings.js:46
+#: src/blocks/text/components/inspector_controls/border_settings.js:46
+#: src/blocks/textarea/components/inspector_controls/border_settings.js:46
+#: src/blocks/url/components/inspector_controls/border_settings.js:46
+msgid "Border Settings"
+msgstr "Border Einstellungen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/border_settings.js:50
+#: src/blocks/email/components/inspector_controls/border_settings.js:50
+#: src/blocks/file/components/inspector_controls/border_settings.js:50
+#: src/blocks/number/components/inspector_controls/border_settings.js:50
+#: src/blocks/password/components/inspector_controls/border_settings.js:50
+#: src/blocks/phone/components/inspector_controls/border_settings.js:50
+#: src/blocks/radio/components/inspector_controls/border_settings.js:50
+#: src/blocks/select/components/inspector_controls/border_settings.js:50
+#: src/blocks/submit/components/inspector_controls/border_settings.js:50
+#: src/blocks/text/components/inspector_controls/border_settings.js:50
+#: src/blocks/textarea/components/inspector_controls/border_settings.js:50
+#: src/blocks/url/components/inspector_controls/border_settings.js:50
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_style.php:4
+msgid "Border Style"
+msgstr "Border Style"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/border_settings.js:53
+#: src/blocks/email/components/inspector_controls/border_settings.js:53
+#: src/blocks/file/components/inspector_controls/border_settings.js:53
+#: src/blocks/number/components/inspector_controls/border_settings.js:53
+#: src/blocks/password/components/inspector_controls/border_settings.js:53
+#: src/blocks/phone/components/inspector_controls/border_settings.js:53
+#: src/blocks/radio/components/inspector_controls/border_settings.js:53
+#: src/blocks/select/components/inspector_controls/border_settings.js:53
+#: src/blocks/submit/components/inspector_controls/border_settings.js:53
+#: src/blocks/text/components/inspector_controls/border_settings.js:53
+#: src/blocks/textarea/components/inspector_controls/border_settings.js:53
+#: src/blocks/url/components/inspector_controls/border_settings.js:53
+msgid "Solid"
+msgstr "Solid"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/border_settings.js:54
+#: src/blocks/email/components/inspector_controls/border_settings.js:54
+#: src/blocks/file/components/inspector_controls/border_settings.js:54
+#: src/blocks/number/components/inspector_controls/border_settings.js:54
+#: src/blocks/password/components/inspector_controls/border_settings.js:54
+#: src/blocks/phone/components/inspector_controls/border_settings.js:54
+#: src/blocks/radio/components/inspector_controls/border_settings.js:54
+#: src/blocks/select/components/inspector_controls/border_settings.js:54
+#: src/blocks/submit/components/inspector_controls/border_settings.js:54
+#: src/blocks/text/components/inspector_controls/border_settings.js:54
+#: src/blocks/textarea/components/inspector_controls/border_settings.js:54
+#: src/blocks/url/components/inspector_controls/border_settings.js:54
+msgid "Dotted"
+msgstr "Dotted"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/border_settings.js:55
+#: src/blocks/email/components/inspector_controls/border_settings.js:55
+#: src/blocks/file/components/inspector_controls/border_settings.js:55
+#: src/blocks/number/components/inspector_controls/border_settings.js:55
+#: src/blocks/password/components/inspector_controls/border_settings.js:55
+#: src/blocks/phone/components/inspector_controls/border_settings.js:55
+#: src/blocks/radio/components/inspector_controls/border_settings.js:55
+#: src/blocks/select/components/inspector_controls/border_settings.js:55
+#: src/blocks/submit/components/inspector_controls/border_settings.js:55
+#: src/blocks/text/components/inspector_controls/border_settings.js:55
+#: src/blocks/textarea/components/inspector_controls/border_settings.js:55
+#: src/blocks/url/components/inspector_controls/border_settings.js:55
+msgid "Dashed"
+msgstr "Dashed"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/border_settings.js:56
+#: src/blocks/email/components/inspector_controls/border_settings.js:56
+#: src/blocks/file/components/inspector_controls/border_settings.js:56
+#: src/blocks/number/components/inspector_controls/border_settings.js:56
+#: src/blocks/password/components/inspector_controls/border_settings.js:56
+#: src/blocks/phone/components/inspector_controls/border_settings.js:56
+#: src/blocks/radio/components/inspector_controls/border_settings.js:56
+#: src/blocks/select/components/inspector_controls/border_settings.js:56
+#: src/blocks/submit/components/inspector_controls/border_settings.js:56
+#: src/blocks/text/components/inspector_controls/border_settings.js:56
+#: src/blocks/textarea/components/inspector_controls/border_settings.js:56
+#: src/blocks/url/components/inspector_controls/border_settings.js:56
+msgid "Double"
+msgstr "Double"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/border_settings.js:57
+#: src/blocks/email/components/inspector_controls/border_settings.js:57
+#: src/blocks/file/components/inspector_controls/border_settings.js:57
+#: src/blocks/number/components/inspector_controls/border_settings.js:57
+#: src/blocks/password/components/inspector_controls/border_settings.js:57
+#: src/blocks/phone/components/inspector_controls/border_settings.js:57
+#: src/blocks/radio/components/inspector_controls/border_settings.js:57
+#: src/blocks/select/components/inspector_controls/border_settings.js:57
+#: src/blocks/submit/components/inspector_controls/border_settings.js:57
+#: src/blocks/text/components/inspector_controls/border_settings.js:57
+#: src/blocks/textarea/components/inspector_controls/border_settings.js:57
+#: src/blocks/url/components/inspector_controls/border_settings.js:57
+msgid "Groove"
+msgstr "Groove"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/border_settings.js:58
+#: src/blocks/email/components/inspector_controls/border_settings.js:58
+#: src/blocks/file/components/inspector_controls/border_settings.js:58
+#: src/blocks/number/components/inspector_controls/border_settings.js:58
+#: src/blocks/password/components/inspector_controls/border_settings.js:58
+#: src/blocks/phone/components/inspector_controls/border_settings.js:58
+#: src/blocks/radio/components/inspector_controls/border_settings.js:58
+#: src/blocks/select/components/inspector_controls/border_settings.js:58
+#: src/blocks/submit/components/inspector_controls/border_settings.js:58
+#: src/blocks/text/components/inspector_controls/border_settings.js:58
+#: src/blocks/textarea/components/inspector_controls/border_settings.js:58
+#: src/blocks/url/components/inspector_controls/border_settings.js:58
+msgid "Ridge"
+msgstr "Ridge"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/border_settings.js:59
+#: src/blocks/email/components/inspector_controls/border_settings.js:59
+#: src/blocks/file/components/inspector_controls/border_settings.js:59
+#: src/blocks/number/components/inspector_controls/border_settings.js:59
+#: src/blocks/password/components/inspector_controls/border_settings.js:59
+#: src/blocks/phone/components/inspector_controls/border_settings.js:59
+#: src/blocks/radio/components/inspector_controls/border_settings.js:59
+#: src/blocks/select/components/inspector_controls/border_settings.js:59
+#: src/blocks/submit/components/inspector_controls/border_settings.js:59
+#: src/blocks/text/components/inspector_controls/border_settings.js:59
+#: src/blocks/textarea/components/inspector_controls/border_settings.js:59
+#: src/blocks/url/components/inspector_controls/border_settings.js:59
+msgid "Inset"
+msgstr "Inset"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/border_settings.js:60
+#: src/blocks/email/components/inspector_controls/border_settings.js:60
+#: src/blocks/file/components/inspector_controls/border_settings.js:60
+#: src/blocks/number/components/inspector_controls/border_settings.js:60
+#: src/blocks/password/components/inspector_controls/border_settings.js:60
+#: src/blocks/phone/components/inspector_controls/border_settings.js:60
+#: src/blocks/radio/components/inspector_controls/border_settings.js:60
+#: src/blocks/select/components/inspector_controls/border_settings.js:60
+#: src/blocks/submit/components/inspector_controls/border_settings.js:60
+#: src/blocks/text/components/inspector_controls/border_settings.js:60
+#: src/blocks/textarea/components/inspector_controls/border_settings.js:60
+#: src/blocks/url/components/inspector_controls/border_settings.js:60
+msgid "Outset"
+msgstr "Outset"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/border_settings.js:61
+#: src/blocks/email/components/inspector_controls/border_settings.js:61
+#: src/blocks/file/components/inspector_controls/border_settings.js:61
+#: src/blocks/hidden/index.js:10 src/blocks/hidden/index.js:24
+#: src/blocks/number/components/inspector_controls/border_settings.js:61
+#: src/blocks/password/components/inspector_controls/border_settings.js:61
+#: src/blocks/phone/components/inspector_controls/border_settings.js:61
+#: src/blocks/radio/components/inspector_controls/border_settings.js:61
+#: src/blocks/select/components/inspector_controls/border_settings.js:61
+#: src/blocks/submit/components/inspector_controls/border_settings.js:61
+#: src/blocks/text/components/inspector_controls/border_settings.js:61
+#: src/blocks/textarea/components/inspector_controls/border_settings.js:61
+#: src/blocks/url/components/inspector_controls/border_settings.js:61
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/border_settings.js:62
+#: src/blocks/email/components/inspector_controls/border_settings.js:62
+#: src/blocks/file/components/inspector_controls/border_settings.js:62
+#: src/blocks/number/components/inspector_controls/border_settings.js:62
+#: src/blocks/password/components/inspector_controls/border_settings.js:62
+#: src/blocks/phone/components/inspector_controls/border_settings.js:62
+#: src/blocks/radio/components/inspector_controls/border_settings.js:62
+#: src/blocks/select/components/inspector_controls/border_settings.js:62
+#: src/blocks/submit/components/inspector_controls/border_settings.js:62
+#: src/blocks/text/components/inspector_controls/border_settings.js:62
+#: src/blocks/textarea/components/inspector_controls/border_settings.js:62
+#: src/blocks/url/components/inspector_controls/border_settings.js:62
+msgid "None"
+msgstr "None"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/border_settings.js:69
+#: src/blocks/email/components/inspector_controls/border_settings.js:69
+#: src/blocks/file/components/inspector_controls/border_settings.js:69
+#: src/blocks/number/components/inspector_controls/border_settings.js:69
+#: src/blocks/password/components/inspector_controls/border_settings.js:69
+#: src/blocks/phone/components/inspector_controls/border_settings.js:69
+#: src/blocks/radio/components/inspector_controls/border_settings.js:69
+#: src/blocks/select/components/inspector_controls/border_settings.js:69
+#: src/blocks/submit/components/inspector_controls/border_settings.js:69
+#: src/blocks/text/components/inspector_controls/border_settings.js:69
+#: src/blocks/textarea/components/inspector_controls/border_settings.js:69
+#: src/blocks/url/components/inspector_controls/border_settings.js:69
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_width.php:46
+msgid "Border Width"
+msgstr "Border Breite"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/border_settings.js:82
+#: src/blocks/email/components/inspector_controls/border_settings.js:82
+#: src/blocks/file/components/inspector_controls/border_settings.js:82
+#: src/blocks/number/components/inspector_controls/border_settings.js:82
+#: src/blocks/password/components/inspector_controls/border_settings.js:82
+#: src/blocks/phone/components/inspector_controls/border_settings.js:82
+#: src/blocks/radio/components/inspector_controls/border_settings.js:82
+#: src/blocks/select/components/inspector_controls/border_settings.js:82
+#: src/blocks/submit/components/inspector_controls/border_settings.js:82
+#: src/blocks/text/components/inspector_controls/border_settings.js:82
+#: src/blocks/textarea/components/inspector_controls/border_settings.js:82
+#: src/blocks/url/components/inspector_controls/border_settings.js:82
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_radius.php:46
+msgid "Border Radius"
+msgstr "Border Radius"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/validation_setting.js:24
+#: src/blocks/email/components/inspector_controls/validation_setting.js:29
+#: src/blocks/file/components/inspector_controls/validation_setting.js:22
+#: src/blocks/number/components/inspector_controls/validation_setting.js:33
+#: src/blocks/password/components/inspector_controls/validation_setting.js:29
+#: src/blocks/phone/components/inspector_controls/validation_setting.js:29
+#: src/blocks/range/components/inspector_controls/validation_settings.js:31
+#: src/blocks/select/components/inspector_controls/validation_setting.js:24
+#: src/blocks/text/components/inspector_controls/validation_setting.js:29
+#: src/blocks/textarea/components/inspector_controls/validation_setting.js:27
+#: src/blocks/url/components/inspector_controls/validation_setting.js:29
+msgid "Validation Settings"
+msgstr "Verifizierungs-Einstellungen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/validation_setting.js:28
+#: src/blocks/email/components/inspector_controls/validation_setting.js:33
+#: src/blocks/file/components/inspector_controls/validation_setting.js:26
+#: src/blocks/number/components/inspector_controls/validation_setting.js:37
+#: src/blocks/password/components/inspector_controls/validation_setting.js:33
+#: src/blocks/phone/components/inspector_controls/validation_setting.js:33
+#: src/blocks/range/components/inspector_controls/validation_settings.js:35
+#: src/blocks/select/components/inspector_controls/validation_setting.js:28
+#: src/blocks/text/components/inspector_controls/validation_setting.js:33
+#: src/blocks/textarea/components/inspector_controls/validation_setting.js:31
+#: src/blocks/url/components/inspector_controls/validation_setting.js:33
+msgid "Required"
+msgstr "Erforderlich"
+
+#: dist/blocks.build.js:1
+#: src/blocks/email/components/inspector_controls/validation_setting.js:38
+#: src/blocks/password/components/inspector_controls/validation_setting.js:38
+#: src/blocks/phone/components/inspector_controls/validation_setting.js:38
+#: src/blocks/text/components/inspector_controls/validation_setting.js:38
+#: src/blocks/url/components/inspector_controls/validation_setting.js:38
+msgid "Min. Length"
+msgstr "Min. Länge"
+
+#: dist/blocks.build.js:1
+#: src/blocks/email/components/inspector_controls/validation_setting.js:39
+#: src/blocks/password/components/inspector_controls/validation_setting.js:39
+#: src/blocks/phone/components/inspector_controls/validation_setting.js:39
+#: src/blocks/text/components/inspector_controls/validation_setting.js:39
+#: src/blocks/url/components/inspector_controls/validation_setting.js:39
+msgid "Defines the min. character length."
+msgstr "Definiert die min. Zeichenlänge."
+
+#: dist/blocks.build.js:1
+#: src/blocks/email/components/inspector_controls/validation_setting.js:50
+#: src/blocks/password/components/inspector_controls/validation_setting.js:50
+#: src/blocks/phone/components/inspector_controls/validation_setting.js:50
+#: src/blocks/text/components/inspector_controls/validation_setting.js:50
+#: src/blocks/textarea/components/inspector_controls/validation_setting.js:36
+#: src/blocks/url/components/inspector_controls/validation_setting.js:50
+msgid "Max. Length"
+msgstr "Max. Länge"
+
+#: dist/blocks.build.js:1
+#: src/blocks/email/components/inspector_controls/validation_setting.js:51
+#: src/blocks/password/components/inspector_controls/validation_setting.js:51
+#: src/blocks/phone/components/inspector_controls/validation_setting.js:51
+#: src/blocks/text/components/inspector_controls/validation_setting.js:51
+#: src/blocks/textarea/components/inspector_controls/validation_setting.js:37
+#: src/blocks/url/components/inspector_controls/validation_setting.js:51
+msgid "Defines the max. character length."
+msgstr "Definiert die max. Zeichenlänge."
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/advanced_settings.js:29
+#: src/blocks/email/components/inspector_controls/advanced_settings.js:29
+#: src/blocks/file/components/inspector_controls/advanced_settings.js:25
+#: src/blocks/number/components/inspector_controls/advanced_settings.js:27
+#: src/blocks/password/components/inspector_controls/advanced_settings.js:29
+#: src/blocks/phone/components/inspector_controls/advanced_settings.js:29
+#: src/blocks/range/components/inspector_controls/advanced_settings.js:25
+#: src/blocks/select/components/inspector_controls/advanced_settings.js:27
+#: src/blocks/text/components/inspector_controls/advanced_settings.js:29
+#: src/blocks/textarea/components/inspector_controls/advanced_settings.js:27
+#: src/blocks/url/components/inspector_controls/advanced_settings.js:29
+msgid "Autofocus"
+msgstr "Autofokus"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/advanced_settings.js:34
+#: src/blocks/email/components/inspector_controls/advanced_settings.js:34
+#: src/blocks/password/components/inspector_controls/advanced_settings.js:34
+#: src/blocks/phone/components/inspector_controls/advanced_settings.js:34
+#: src/blocks/text/components/inspector_controls/advanced_settings.js:34
+#: src/blocks/url/components/inspector_controls/advanced_settings.js:34
+msgid "Autocomplete"
+msgstr "Autovervollständigung"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/advanced_settings.js:39
+#: src/blocks/email/components/inspector_controls/advanced_settings.js:39
+#: src/blocks/number/components/inspector_controls/advanced_settings.js:32
+#: src/blocks/password/components/inspector_controls/advanced_settings.js:39
+#: src/blocks/phone/components/inspector_controls/advanced_settings.js:39
+#: src/blocks/select/components/inspector_controls/advanced_settings.js:32
+#: src/blocks/text/components/inspector_controls/advanced_settings.js:39
+#: src/blocks/textarea/components/inspector_controls/advanced_settings.js:32
+#: src/blocks/url/components/inspector_controls/advanced_settings.js:39
+msgid "Read Only"
+msgstr "Nur lesbar"
+
+#: dist/blocks.build.js:1
+#: src/blocks/date/components/inspector_controls/advanced_settings.js:44
+#: src/blocks/email/components/inspector_controls/advanced_settings.js:44
+#: src/blocks/file/components/inspector_controls/advanced_settings.js:30
+#: src/blocks/number/components/inspector_controls/advanced_settings.js:37
+#: src/blocks/password/components/inspector_controls/advanced_settings.js:44
+#: src/blocks/phone/components/inspector_controls/advanced_settings.js:44
+#: src/blocks/radio/components/inspector_controls/advanced_settings.js:23
+#: src/blocks/radio/components/inspector_controls/options.js:89
+#: src/blocks/range/components/inspector_controls/advanced_settings.js:30
+#: src/blocks/select/components/inspector_controls/advanced_settings.js:37
+#: src/blocks/select/components/inspector_controls/options.js:126
+#: src/blocks/text/components/inspector_controls/advanced_settings.js:44
+#: src/blocks/textarea/components/inspector_controls/advanced_settings.js:37
+#: src/blocks/url/components/inspector_controls/advanced_settings.js:44
+#: src/core_plugin/core/info/backend/tpl/about.php:114
+#: src/core_plugin/core/scripts/scripts.php:234
+#: src/core_plugin/core/scripts/scripts.php:243
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: dist/blocks.build.js:1 src/blocks/email/index.js:11
+msgid "A field for an e-mail adress."
+msgstr "Ein Feld für eine E-Mail-Adresse."
+
+#: dist/blocks.build.js:1 src/blocks/email/index.js:22
+msgid "SV Forms E-Mail"
+msgstr "SV Forms E-Mail"
+
+#: dist/blocks.build.js:1 src/blocks/email/index.js:23
+msgid "E-Mail Input"
+msgstr "E-Mail-Eingabe"
+
+#: dist/blocks.build.js:1 src/blocks/url/index.js:10 src/blocks/url/index.js:24
+#: src/blocks/url/index.js:47 src/blocks/url/index.php:57
+msgid "URL"
+msgstr "URL"
+
+#: dist/blocks.build.js:1 src/blocks/url/index.js:11
+msgid "A field for an URL."
+msgstr "Ein Feld für eine URL."
+
+#: dist/blocks.build.js:1 src/blocks/url/index.js:22
+msgid "SV Forms URL"
+msgstr "SV Forms URL"
+
+#: dist/blocks.build.js:1 src/blocks/url/index.js:23
+msgid "URL Input"
+msgstr "URL-Eingabe"
+
+#: dist/blocks.build.js:1 src/blocks/number/index.js:10
+#: src/blocks/number/index.js:24
+msgid "Number"
+msgstr "Nummer"
+
+#: dist/blocks.build.js:1 src/blocks/number/index.js:11
+msgid "A field for numbers."
+msgstr "Ein Feld für Zahlen."
+
+#: dist/blocks.build.js:1 src/blocks/number/index.js:22
+msgid "SV Forms Number"
+msgstr "SV Forms Number"
+
+#: dist/blocks.build.js:1 src/blocks/number/index.js:23
+msgid "Number Input"
+msgstr "Zahleneingabe"
+
+#: dist/blocks.build.js:1
+#: src/blocks/number/components/inspector_controls/validation_setting.js:44
+msgid "Min Value"
+msgstr "Min. Wert"
+
+#: dist/blocks.build.js:1
+#: src/blocks/number/components/inspector_controls/validation_setting.js:45
+#: src/blocks/range/components/inspector_controls/validation_settings.js:41
+msgid "Defines the min value."
+msgstr "Definiert den minimalen Wert."
+
+#: dist/blocks.build.js:1
+#: src/blocks/number/components/inspector_controls/validation_setting.js:51
+msgid "Max Value"
+msgstr "Max. Wert"
+
+#: dist/blocks.build.js:1
+#: src/blocks/number/components/inspector_controls/validation_setting.js:52
+#: src/blocks/range/components/inspector_controls/validation_settings.js:47
+msgid "Defines the max value."
+msgstr "Definiert den maximalen Wert."
+
+#: dist/blocks.build.js:1
+#: src/blocks/number/components/inspector_controls/validation_setting.js:58
+#: src/blocks/range/components/inspector_controls/validation_settings.js:52
+msgid "Step"
+msgstr "Schritt"
+
+#: dist/blocks.build.js:1
+#: src/blocks/number/components/inspector_controls/validation_setting.js:59
+msgid "Defines the values steps."
+msgstr "Definiert die Werteschritte."
+
+#: dist/blocks.build.js:1 src/blocks/phone/index.js:10
+#: src/blocks/phone/index.js:24 src/blocks/phone/index.js:48
+#: src/blocks/phone/index.php:57
+msgid "Phone"
+msgstr "Telefon"
+
+#: dist/blocks.build.js:1 src/blocks/phone/index.js:11
+msgid "A field for phone numbers."
+msgstr "Ein Feld für Telefonnummern."
+
+#: dist/blocks.build.js:1 src/blocks/phone/index.js:22
+msgid "SV Forms Phone"
+msgstr "SV Forms Phone"
+
+#: dist/blocks.build.js:1 src/blocks/phone/index.js:23
+msgid "Phone Input"
+msgstr "Telefoneingabe"
+
+#: dist/blocks.build.js:1
+#: src/blocks/textarea/components/inspector_controls/color_settings.js:66
+#: src/blocks/textarea/index.js:10 src/blocks/textarea/index.js:24
+#: src/blocks/textarea/index.js:47 src/blocks/textarea/index.php:57
+msgid "Textarea"
+msgstr "Textbereich"
+
+#: dist/blocks.build.js:1 src/blocks/textarea/index.js:11
+msgid "A field for long messages."
+msgstr "Ein Feld für lange Nachrichten."
+
+#: dist/blocks.build.js:1 src/blocks/textarea/index.js:22
+msgid "SV Forms Textarea"
+msgstr "SV Forms Textarea"
+
+#: dist/blocks.build.js:1 src/blocks/textarea/index.js:23
+msgid "Textarea Input"
+msgstr "Textbereich Eingabe"
+
+#: dist/blocks.build.js:1
+#: src/blocks/textarea/components/inspector_controls/textarea_settings.js:100
+msgid "Textarea Settings"
+msgstr "Textbereichseinstellungen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/textarea/components/inspector_controls/color_settings.js:74
+msgid "Textarea Background"
+msgstr "Textbereich Hintergrund"
+
+#: dist/blocks.build.js:1 src/blocks/checkbox/index.js:13
+#: src/blocks/checkbox/index.js:27 src/blocks/checkbox/index.js:43
+#: src/blocks/checkbox/index.php:49
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: dist/blocks.build.js:1 src/blocks/checkbox/index.js:14
+msgid "A checkbox that can be checked."
+msgstr "Ein Kontrollkästchen, das aktiviert werden kann."
+
+#: dist/blocks.build.js:1 src/blocks/checkbox/index.js:25
+msgid "SV Forms Checkbox"
+msgstr "SV Forms Checkbox"
+
+#: dist/blocks.build.js:1 src/blocks/checkbox/index.js:26
+msgid "Checkbox Input"
+msgstr "Checkbox Eingabe"
+
+#: dist/blocks.build.js:1
+msgid "unknown"
+msgstr "unbekannt"
+
+#: dist/blocks.build.js:1
+#: src/blocks/radio/components/inspector_controls/options.js:82
+#: src/blocks/select/components/inspector_controls/options.js:119
+msgid "Value"
+msgstr "Wert"
+
+#: dist/blocks.build.js:1 src/blocks/radio/index.js:10
+#: src/blocks/radio/index.js:23
+msgid "Radio Button"
+msgstr "Radio Button"
+
+#: dist/blocks.build.js:1 src/blocks/radio/index.js:11
+msgid "Create a radio button."
+msgstr "Erstellen Sie ein Optionsfeld."
+
+#: dist/blocks.build.js:1 src/blocks/radio/index.js:22
+msgid "SV Forms Radio Button"
+msgstr "SV Forms Radio Button"
+
+#: dist/blocks.build.js:1 src/blocks/radio/index.js:24
+msgid "Radio"
+msgstr "Radio"
+
+#: dist/blocks.build.js:1 src/blocks/radio/index.js:50
+#: src/blocks/radio/index.php:59
+msgid "Option"
+msgstr "Optionen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/radio/components/inspector_controls/options.js:61
+#: src/blocks/select/components/inspector_controls/options.js:80
+msgid "Options"
+msgstr "Einstellungen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/radio/components/inspector_controls/options.js:69
+#: src/blocks/select/components/inspector_controls/options.js:98
+msgid "Add Option"
+msgstr "Option hinzufügen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/radio/components/inspector_controls/options.js:94
+#: src/blocks/select/components/inspector_controls/options.js:131
+msgid "Delete Option"
+msgstr "Option löschen"
+
+#: dist/blocks.build.js:1 src/blocks/select/index.js:10
+#: src/blocks/select/index.js:24
+msgid "Select"
+msgstr "Auswählen"
+
+#: dist/blocks.build.js:1 src/blocks/select/index.js:11
+msgid "Create a select field."
+msgstr "Erstelle ein Auswahlfeld."
+
+#: dist/blocks.build.js:1 src/blocks/select/index.js:22
+msgid "SV Forms Select"
+msgstr "SV Forms Select"
+
+#: dist/blocks.build.js:1 src/blocks/select/index.js:23
+msgid "Select Field"
+msgstr "Auswahlfeld"
+
+#: dist/blocks.build.js:1 src/blocks/select/index.js:60
+#: src/blocks/select/index.php:70
+msgid "Please select..."
+msgstr "Bitte wählen..."
+
+#: dist/blocks.build.js:1
+#: src/blocks/select/components/inspector_controls/options.js:90
+msgid "Countries"
+msgstr "Länder"
+
+#: dist/blocks.build.js:1
+#: src/blocks/select/components/inspector_controls/options.js:104
+msgid "Delete Options"
+msgstr "Optionen löschen"
+
+#: dist/blocks.build.js:1 src/blocks/submit/index.js:10
+msgid "Submit Button"
+msgstr "Absenden Button"
+
+#: dist/blocks.build.js:1 src/blocks/submit/index.js:11
+msgid "The submit button for the form."
+msgstr "Die Schaltfläche \"Absenden\" für das Formular."
+
+#: dist/blocks.build.js:1 src/blocks/submit/index.js:22
+msgid "SV Forms Submit"
+msgstr "SV Forms Submit"
+
+#: dist/blocks.build.js:1 src/blocks/submit/index.js:23
+msgid "Submit"
+msgstr "Senden"
+
+#: dist/blocks.build.js:1 src/blocks/submit/index.js:24
+msgid "Button"
+msgstr "Button"
+
+#: dist/blocks.build.js:1
+#: src/blocks/submit/components/inspector_controls/color_settings.js:63
+msgid "Background"
+msgstr "Hintergrund"
+
+#: dist/blocks.build.js:1
+#: src/blocks/submit/components/inspector_controls/color_settings.js:68
+msgid "Border"
+msgstr "Border"
+
+#: dist/blocks.build.js:1 src/blocks/password/index.js:10
+#: src/blocks/password/index.js:24 src/blocks/password/index.js:47
+#: src/blocks/password/index.php:57
+msgid "Password"
+msgstr "Kennwort"
+
+#: dist/blocks.build.js:1 src/blocks/password/index.js:11
+msgid "A field for passwords."
+msgstr "Ein Feld für Kennwörter."
+
+#: dist/blocks.build.js:1 src/blocks/password/index.js:22
+msgid "SV Forms Password"
+msgstr "SV Forms Password"
+
+#: dist/blocks.build.js:1 src/blocks/password/index.js:23
+msgid "Password Input"
+msgstr "Kennworteingabe"
+
+#: dist/blocks.build.js:1 src/blocks/date/index.js:10
+#: src/blocks/date/index.js:24
+msgid "Date"
+msgstr "Datum"
+
+#: dist/blocks.build.js:1 src/blocks/date/index.js:11
+msgid "A field for for dates."
+msgstr "Ein Feld für Datumsangaben."
+
+#: dist/blocks.build.js:1 src/blocks/date/index.js:22
+msgid "SV Forms Date"
+msgstr "SV Forms Date"
+
+#: dist/blocks.build.js:1 src/blocks/date/index.js:23
+msgid "Date Input"
+msgstr "Datum Eingabe"
+
+#: dist/blocks.build.js:1 src/blocks/range/index.js:10
+#: src/blocks/range/index.js:24
+msgid "Range"
+msgstr "Range"
+
+#: dist/blocks.build.js:1 src/blocks/range/index.js:11
+msgid "A field for range."
+msgstr "Ein Feld für reichweite."
+
+#: dist/blocks.build.js:1 src/blocks/range/index.js:22
+msgid "SV Forms Range"
+msgstr "SV Forms Range"
+
+#: dist/blocks.build.js:1 src/blocks/range/index.js:23
+msgid "Range Input"
+msgstr "Reichweiten-Eingabe"
+
+#: dist/blocks.build.js:1 src/blocks/range/index.js:30
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: dist/blocks.build.js:1 src/blocks/range/index.js:31
+msgid "Vertical"
+msgstr "Vertikal"
+
+#: dist/blocks.build.js:1
+#: src/blocks/range/components/inspector_controls/validation_settings.js:40
+msgid "Min"
+msgstr "Min"
+
+#: dist/blocks.build.js:1
+#: src/blocks/range/components/inspector_controls/validation_settings.js:46
+msgid "Max"
+msgstr "Max"
+
+#: dist/blocks.build.js:1
+#: src/blocks/range/components/inspector_controls/validation_settings.js:53
+msgid "Defines the step value."
+msgstr "Definiert den Schrittwert."
+
+#: dist/blocks.build.js:1
+#: src/blocks/range/components/inspector_controls/display_settings.js:28
+msgid "Display Settings"
+msgstr "Anzeigeneinstellungen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/range/components/inspector_controls/display_settings.js:32
+msgid "Show Value"
+msgstr "Wert anzeigen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/range/components/inspector_controls/display_settings.js:37
+msgid "Show Min"
+msgstr "Min anzeigen"
+
+#: dist/blocks.build.js:1
+#: src/blocks/range/components/inspector_controls/display_settings.js:42
+msgid "Show Max"
+msgstr "Max anzeigen"
+
+#: dist/blocks.build.js:1 src/blocks/file/index.js:10
+msgid "File"
+msgstr "Datei"
+
+#: dist/blocks.build.js:1 src/blocks/file/index.js:11
+msgid "A field for file uploads."
+msgstr "Ein Feld für Datei-Uploads."
+
+#: dist/blocks.build.js:1 src/blocks/file/index.js:22
+msgid "SV Forms File"
+msgstr "SV Forms File"
+
+#: dist/blocks.build.js:1 src/blocks/file/index.js:23
+msgid "File Input"
+msgstr "Datei Eingabe"
+
+#: dist/blocks.build.js:1 src/blocks/file/index.js:24
+msgid "Upload"
+msgstr "Hochladen"
+
+#: dist/blocks.build.js:1 src/blocks/hidden/index.js:11
+msgid "A field that is hidden."
+msgstr "Ein ausgeblendetes Feld."
+
+#: dist/blocks.build.js:1 src/blocks/hidden/index.js:22
+msgid "SV Forms Hidden"
+msgstr "SV Forms Hidden"
+
+#: dist/blocks.build.js:1 src/blocks/hidden/edit.js:132
+#: src/blocks/hidden/index.js:23
+msgid "Hidden Input"
+msgstr "Versteckte Eingabe"
+
+#: dist/blocks.build.js:1 src/blocks/hidden/edit.js:111
+msgid "Hidden Input: "
+msgstr "Versteckte Eingabe: "
+
+#: src/core_plugin/core/abstract.php:91
+msgid "Class"
+msgstr "Klasse"
+
+#: src/core_plugin/core/abstract.php:93
+msgid "could not be loaded (tried to load class-file"
+msgstr "konnte nicht geladen werden (versucht, die Klassendatei zu laden"
+
+#: src/core_plugin/core/abstract.php:165 src/core_plugin/core/abstract.php:183
+#: src/core_plugin/core/abstract.php:201
+msgid "not defined"
+msgstr "nicht definiert"
+
+#: src/core_plugin/core/abstract.php:289
+msgid "Configuration &amp; Settings"
+msgstr "Konfiguration &amp; Einstellungen"
+
+#: src/core_plugin/core/abstract.php:290
+msgid "Helpful tools &amp; helper"
+msgstr "Hilfreiche Tools &amp; Helfer"
+
+#: src/core_plugin/core/abstract.php:399
+msgid "Common"
+msgstr "Allgemein"
+
+#: src/core_plugin/core/abstract.php:709
+msgid "No Title defined."
+msgstr "Kein Titel definiert."
+
+#: src/core_plugin/core/abstract.php:729
+msgid "No description defined."
+msgstr "Keine Beschreibung definiert."
+
+#: src/core_plugin/core/abstract.php:739
+msgid "No privacy statement defined."
+msgstr "Keine Datenschutzerklärung definiert."
+
+#: src/core_plugin/core/abstract.php:816
+#: src/core_plugin/core/scripts/scripts.php:129
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/core_plugin/core/abstract.php:1107
+#, php-format
+msgid "%s Minute"
+msgid_plural "%s Minutes"
+msgstr[0] "%s Minute"
+msgstr[1] "%s Minuten"
+
+#: src/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:3
+msgid "Start"
+msgstr "Start"
+
+#: src/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:4
+msgid "Processing"
+msgstr "In Bearbeitung"
+
+#: src/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:5
+msgid "Finished"
+msgstr "Abgeschlossen"
+
+#: src/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:8
+msgid "Continue Import from Cycle"
+msgstr "Import fortsetzen von Zyklus"
+
+#: src/core_plugin/core/backend/tpl/about.php:5
+#: src/core_plugin/core/backend/tpl/header.php:17
+#: src/core_plugin/core/info/backend/tpl/about.php:16
+msgid "About"
+msgstr "Über"
+
+#: src/core_plugin/core/backend/tpl/about.php:10
+#: src/core_plugin/core/info/backend/tpl/about.php:21
+#: src/core_plugin/core_plugin.php:66 src/core_plugin/core_plugin.php:67
+msgid "Info"
+msgstr "Info"
+
+#: src/core_plugin/core/backend/tpl/about.php:12
+#: src/core_plugin/core/info/backend/tpl/about.php:24
+msgid "Name:"
+msgstr "Name:"
+
+#: src/core_plugin/core/backend/tpl/about.php:13
+msgid "Version:"
+msgstr "Version:"
+
+#: src/core_plugin/core/backend/tpl/about.php:17
+#: src/core_plugin/core/info/backend/tpl/about.php:38
+msgid "Description"
+msgstr "Beschreibung"
+
+#: src/core_plugin/core/backend/tpl/footer.php:10
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/core_plugin/core/backend/tpl/header.php:18
+msgid "General info & description"
+msgstr "Allgemeine Infos & Beschreibung"
+
+#: src/core_plugin/core/backend/tpl/header.php:25
+#: src/core_plugin/core/backend/tpl/legal.php:5
+msgid "Legal Information"
+msgstr "Rechtliche Informationen"
+
+#: src/core_plugin/core/backend/tpl/header.php:26
+msgid "Copyright & Usage"
+msgstr "Copyright & Nutzung"
+
+#: src/core_plugin/core/backend/tpl/legal.php:9
+msgid "General Information"
+msgstr "Allgemeine Informationen"
+
+#: src/core_plugin/core/backend/tpl/legal.php:11
+msgid "Project Website:"
+msgstr "Projekt Website:"
+
+#. Author of the plugin/theme
+#: src/core_plugin/core/backend/tpl/legal.php:11
+msgid "straightvisions GmbH"
+msgstr "straightvisions GmbH"
+
+#: src/core_plugin/core/backend/tpl/legal.php:13
+msgid "License: GPL3 or later"
+msgstr "Lizenz: GPL3 oder höher"
+
+#: src/core_plugin/core/backend/tpl/legal.php:16
+msgid "This program is free software:"
+msgstr "This program is free software:"
+
+#: src/core_plugin/core/backend/tpl/legal.php:19
+msgid ""
+"You can redistribute it and/or modify it under the terms of the GNU General "
+"Public License as\n"
+"\t\t\t\t\tpublished by the Free Software Foundation, either version 3 of the "
+"License, or (at your option)\n"
+"\t\t\t\t\tany later version."
+msgstr ""
+"You can redistribute it and/or modify it under the terms of the GNU General "
+"Public License as\n"
+"\t\t\t\t\tpublished by the Free Software Foundation, either version 3 of the "
+"License, or (at your option)\n"
+"\t\t\t\t\tany later version."
+
+#: src/core_plugin/core/backend/tpl/legal.php:26
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY;\n"
+"\t\t\t\t\twithout even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE."
+msgstr ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY;\n"
+"\t\t\t\t\twithout even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE."
+
+#: src/core_plugin/core/backend/tpl/legal.php:31
+msgid "See the GNU General Public License for more details."
+msgstr "See the GNU General Public License for more details."
+
+#: src/core_plugin/core/backend/tpl/legal.php:33
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program."
+msgstr ""
+"You should have received a copy of the GNU General Public License along with "
+"this program."
+
+#: src/core_plugin/core/backend/tpl/legal.php:35
+msgid "If not, See"
+msgstr "If not, See"
+
+#: src/core_plugin/core/backend/tpl/legal.php:37
+msgid "http://www.gnu.org/licenses/"
+msgstr "http://www.gnu.org/licenses/"
+
+#: src/core_plugin/core/backend/tpl/legal.php:42
+msgid "Privacy Statement"
+msgstr "Datenschutzerklärung"
+
+#: src/core_plugin/core/core.php:112
+msgid ""
+"Please check that all SV products are up to date. You may need to update "
+msgstr ""
+"Bitte überprüfe, dass alle SV Produkte auf dem aktuellen Stand sind. "
+"Folgende müssen möglicherweise aktualisiert werden "
+
+#: src/core_plugin/core/core.php:113
+msgid "SV Core was loaded by"
+msgstr "SV Core wurde geladen von"
+
+#: src/core_plugin/core/core.php:115
+msgid "with version:"
+msgstr "mit Version:"
+
+#: src/core_plugin/core/core.php:116
+#, php-format
+msgid "but %s v%s requires core-version"
+msgstr "aber %s v%s benötigt Core-Version"
+
+#: src/core_plugin/core/core.php:159 src/core_plugin/core/core.php:165
+#: src/core_plugin/core/core.php:302 src/core_plugin/core/core.php:321
+#: src/core_plugin/core/core.php:473
+msgid "Setting saved"
+msgstr "Einstellung gespeichert"
+
+#: src/core_plugin/core/core.php:304
+msgid "Nonce check failed / Empty data."
+msgstr "Nonce-Prüfung fehlgeschlagen / Leere Daten."
+
+#: src/core_plugin/core/core.php:312
+msgid "Nothing to update."
+msgstr "Nichts zu aktualisieren."
+
+#: src/core_plugin/core/core.php:325
+msgid "You are unauthorized to perform this action."
+msgstr "Du bist nicht berechtigt, diese Aktion durchzuführen."
+
+#: src/core_plugin/core/core.php:331
+msgid "Nonce check cannot fail."
+msgstr "Nonce-Prüfung kann nicht fehlschlagen."
+
+#: src/core_plugin/core/core.php:365
+msgid "Website enhanced by straightvisions.com"
+msgstr "Website enhanced by straightvisions.com"
+
+#: src/core_plugin/core/core.php:436
+#: src/core_plugin/core/info/backend/tpl/about.php:62
+msgid "Expert Mode"
+msgstr "Experten-Modus"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:28
+msgid "Active Core Version:"
+msgstr "Aktive Core Version:"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:32
+msgid "Active Core Path:"
+msgstr "Aktiver Core Pfad:"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:42
+msgid ""
+"Our themes and plugins share a core which provides commonly used features.\n"
+"\t\t\t\t\tThe core is included and shared within each plugin or theme, so "
+"make sure if you update one product,\n"
+"\t\t\t\t\tto update all others too."
+msgstr ""
+"Unsere Themes und Plugins teilen eine Core, der die gängigen Funktionen "
+"bietet. Die Core ist in jedem Plugin oder Theme enthalten und geteilt. "
+"Stelle möglichst sicher, dass wenn du ein Produkt aktualisierst, alle "
+"anderen auch aktualisiert werden."
+
+#: src/core_plugin/core/info/backend/tpl/about.php:51
+msgid "Primary Instance"
+msgstr "Primäre Instanz"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:71
+msgid "Instances"
+msgstr "Instanzen"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:78
+msgid "This plugin version is outdated, please update this plugin!"
+msgstr ""
+"Diese Pluginversion ist nicht mehr aktuell, bitte aktualisiere das Plugin!"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:95
+msgid "Theme"
+msgstr "Theme"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:95
+msgid "Plugin"
+msgstr "Plugin"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:113
+msgid "Active"
+msgstr "Aktiv"
+
+#: src/core_plugin/core/info/info.php:13
+msgid "SV Core"
+msgstr "SV Core"
+
+#: src/core_plugin/core/info/info.php:14
+msgid ""
+"Our core framework is included in all recent plugins and themes by "
+"straightvisions."
+msgstr ""
+"Unser Core Framework ist Teil aller unserer aktuellen Plugins und Themes von "
+"straightvisions.com."
+
+#: src/core_plugin/core/info/info.php:16
+msgid "does not collect or share any data from clients or visitors."
+msgstr "sammelt oder teilt keine Daten von Kunden oder Gästen."
+
+#: src/core_plugin/core/lib/tpl/settings/scripts_general.php:3
+msgid "General"
+msgstr "Allgemein"
+
+#: src/core_plugin/core/lib/tpl/settings/scripts_list.php:3
+msgid "Scripts Overview"
+msgstr "Skriptübersicht"
+
+#: src/core_plugin/core/scripts/scripts.php:51
+msgid "Scripts"
+msgstr "Skripte"
+
+#: src/core_plugin/core/scripts/scripts.php:52
+msgid "Override Scripts Loading."
+msgstr "Ladeeinstellungen der Scripte überschreiben."
+
+#: src/core_plugin/core/scripts/scripts.php:120
+msgid "SV100"
+msgstr "SV100"
+
+#: src/core_plugin/core/scripts/scripts.php:141
+msgid "Clear Cache"
+msgstr "Cache leeren"
+
+#: src/core_plugin/core/scripts/scripts.php:198
+msgid "Flush cache for all CSS files"
+msgstr "Leere Cache für alle CSS Dateien"
+
+#: src/core_plugin/core/scripts/scripts.php:199
+msgid "All cached CSS Files will be regenerated"
+msgstr "Alle gecachten CSS Dateien werden neu generiert"
+
+#: src/core_plugin/core/scripts/scripts.php:204
+msgid "Disable all CSS per Default"
+msgstr "Alle CSS per Standard abschalten"
+
+#: src/core_plugin/core/scripts/scripts.php:205
+msgid ""
+"CSS enqueued will be disabled by default - you may override this later down "
+"below."
+msgstr ""
+"CSS-Anmeldeformular wird standardmäßig deaktiviert - Du kannst dies später "
+"weiter unten überschreiben."
+
+#: src/core_plugin/core/scripts/scripts.php:210
+msgid "Disable all JS per Default"
+msgstr "Alle JS per Standard abschalten"
+
+#: src/core_plugin/core/scripts/scripts.php:211
+msgid ""
+"JS enqueued will be disabled by default - you may override this later down "
+"below."
+msgstr ""
+"JS Einreihung wird standardmäßig deaktiviert. Du kannst dies später weiter "
+"unten überschreiben."
+
+#: src/core_plugin/core/scripts/scripts.php:236
+#: src/core_plugin/core/scripts/scripts.php:241
+msgid "Inline"
+msgstr "Inline"
+
+#: src/core_plugin/core/scripts/scripts.php:236
+#: src/core_plugin/core/scripts/scripts.php:242
+msgid "Attached"
+msgstr "Angehängt"
+
+#: src/core_plugin/core/scripts/scripts.php:240
+msgid "Default"
+msgstr "Standard"
+
+#: src/core_plugin/core/scripts/scripts.php:260
+#: src/core_plugin/core/scripts/scripts.php:270
+msgid "Flush Cache"
+msgstr "Cache leeren"
+
+#: src/core_plugin/core/scripts/scripts.php:261
+#: src/core_plugin/core/scripts/scripts.php:271
+msgid "Cache Active"
+msgstr "Cache Aktiv"
+
+#: src/core_plugin/core/scripts/scripts.php:558
+msgid "Script \""
+msgstr "Skript \""
+
+#: src/core_plugin/core/settings/modules/setting_group/setting_group.php:51
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: src/core_plugin/core/settings/modules/setting_group/setting_group.php:64
+msgid "Entry"
+msgstr "Eintrag"
+
+#: src/core_plugin/core/settings/modules/setting_group/setting_group.php:64
+msgid "Group #"
+msgstr "Gruppe #"
+
+#: src/core_plugin/core/settings/settings.php:261
+msgid "No Options defined!"
+msgstr "Keine Beschreibung definiert!"
+
+#: src/core_plugin/core/settings/settings.php:290
+msgid "You need at least"
+msgstr "Du brauchst mindestens"
+
+#: src/core_plugin/core/settings/settings.php:290
+msgid "characters."
+msgstr "Zeichen."
+
+#: src/core_plugin/core/settings/settings.php:620
+msgid "Save"
+msgstr "Speichern"
+
+#: src/core_plugin/core/settings/settings.php:777
+#: src/core_plugin/core/settings/settings.php:820
+msgid "Settings Template not found: "
+msgstr "Template für Einstellungen nicht gefunden: "
+
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_color.php:18
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_color.php:20
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/color.php:11
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/color.php:13
+#: src/core_plugin/core/settings/tpl/setting_color.php:19
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/color.php:5
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/color.php:8
+msgid "Toggle Color Picker"
+msgstr "Wechsel Farbwähler"
+
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_color.php:18
+msgid "Border Color"
+msgstr "Rahmenfarbe"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow.php:27
+msgid "Preview"
+msgstr "Vorschau"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/blur_radius.php:2
+msgid "Blur Radius"
+msgstr "Blur Radius"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/color.php:11
+msgid "Shadow Color"
+msgstr "Schattenfarbe"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/horizontal_length.php:2
+msgid "Horizontal Length"
+msgstr "Horizontale Länge"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/inset.php:2
+msgid "Shadow Style"
+msgstr "Schattenstil"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/spread_radius.php:2
+msgid "Spread Radius"
+msgstr "Spread Radius"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/vertical_length.php:2
+msgid "Vertical Length"
+msgstr "Vertikale Länge"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/color.php:5
+msgid "Color"
+msgstr "Farbe"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/font_family.php:8
+msgid "Font Family"
+msgstr "Schriftart (Font Family)"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/font_size.php:7
+msgid "Font Size"
+msgstr "Schriftgröße"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/font_weight.php:2
+msgid "Font Weight"
+msgstr "Schriftstärke"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/letter_spacing.php:7
+msgid "Letter Spacing"
+msgstr "Zeichenabstand"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/line_height.php:7
+msgid "Line Height"
+msgstr "Zeilenabstand"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/text_decoration.php:2
+msgid "Text Decoration"
+msgstr "Text-Dekoration"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/text_transform.php:2
+msgid "Text Transform"
+msgstr "Text Transform"
+
+#: src/core_plugin/core/settings/tpl/setting_select_page.php:9
+msgid "No Page selected"
+msgstr "Keine Seite ausgewählt"
+
+#: src/core_plugin/core/settings/tpl/setting_upload.php:41
+msgid "Delete File"
+msgstr "Datei löschen"
+
+#: src/core_plugin/core_plugin.php:55 src/core_plugin/core_plugin.php:56
+msgid "straightvisions"
+msgstr "straightvisions"
+
+#: src/core_plugin/dependencies/sv_dependencies.php:34
+msgid "You need to update your PHP version to run"
+msgstr ""
+"Du musst deine PHP Version aktualisieren, damit unsere Produkte funktionieren"
+
+#: src/core_plugin/dependencies/sv_dependencies.php:36
+msgid "Actual version is:"
+msgstr "Installierte Version:"
+
+#: src/core_plugin/dependencies/sv_dependencies.php:37
+msgid "required is"
+msgstr "Erforderlich"
+
+#: src/core_plugin/dependencies/sv_dependencies.php:46
+msgid "You need to install and activate our SV Core plugin to run"
+msgstr "Du musst unser SV Core Plugin installieren und aktivieren"
+
+#: src/init.php:25
+msgid " is a forms builder. Admin has total control about data handling."
+msgstr ""
+" ist ein Formularbuilder. Admins haben die volle Kontrolle über die "
+"Datenverarbeitung."
+
+#: src/lib/modules/archive/archive.php:25
+msgid "SV Forms Submissions Editor"
+msgstr "SV Forms Formulareinträge Editor"
+
+#: src/lib/modules/archive/archive.php:34
+msgid "SV Forms Submissions Admin"
+msgstr "SV Forms Formulareinträge Admin"
+
+#: src/lib/modules/archive/archive.php:79
+msgid "Show All"
+msgstr "Alle anzeigen"
+
+#: src/lib/modules/archive/archive.php:114
+msgid "User Mail Sent"
+msgstr "Benutzer-Mail versendet"
+
+#: src/lib/modules/archive/archive.php:115
+msgid "Admin Mail Sent"
+msgstr "Admin-Mail versendet"
+
+#: src/lib/modules/archive/archive.php:153
+msgid "Edit Form"
+msgstr "Formular bearbeiten"
+
+#: src/lib/modules/archive/archive.php:163
+msgid "Resend User Mail"
+msgstr "Benutzer-Mail erneut senden"
+
+#: src/lib/modules/archive/archive.php:174
+msgid "Resend Admin Mail"
+msgstr "Admin-Mail erneut senden"
+
+#: src/lib/modules/mail/mail.php:53
+msgid "Thank You"
+msgstr "Vielen Dank"
+
+#: src/lib/modules/mail/mail.php:95
+msgid "New Form Submission"
+msgstr "Neue Formular Einträge"
+
+#: src/lib/modules/personal_data/personal_data.php:14
+#: src/lib/modules/personal_data/personal_data.php:24
+msgid "SV Forms Plugin"
+msgstr "SV Forms Plugin"
+
+#: src/lib/modules/personal_data/personal_data.php:62
+#: src/lib/modules/post/post.php:24 src/lib/modules/post/post.php:25
+msgid "SV Forms Submissions"
+msgstr "SV Forms Submissions"
+
+#: src/lib/modules/post/post.php:22
+msgid "Submissions"
+msgstr "Einträge"
+
+#: src/lib/modules/post/post.php:23
+msgid "Submission"
+msgstr "Eintrag"
+
+#: src/lib/modules/post/post.php:26
+msgid "Add New"
+msgstr "Hinzufügen"
+
+#: src/lib/modules/post/post.php:27
+msgid "Add New Submission"
+msgstr "Eintrag hinzufügen"
+
+#: src/lib/modules/post/post.php:28
+msgid "New Submission"
+msgstr "Neuer Eintrag"
+
+#: src/lib/modules/post/post.php:29
+msgid "Edit Submission"
+msgstr "Eintrag bearbeiten"
+
+#: src/lib/modules/post/post.php:30
+msgid "View Submission"
+msgstr "Zeige Eintrag"
+
+#: src/lib/modules/post/post.php:31
+msgid "All Submissions"
+msgstr "Alle Einträge"
+
+#: src/lib/modules/post/post.php:32
+msgid "Search Submissions"
+msgstr "Suche EInträge"
+
+#: src/lib/modules/post/post.php:33
+msgid "Parent Submissions:"
+msgstr "Eltern Einträge:"
+
+#: src/lib/modules/post/post.php:34
+msgid "No Submissions found."
+msgstr "Keine Einträge gefunden."
+
+#: src/lib/modules/post/post.php:35
+msgid "No Submissions found in Trash."
+msgstr "Keine Einträge im Papierkorb gefunden."
+
+#: src/lib/modules/post/post.php:36
+msgid "Submission archives"
+msgstr "Einträge-Archiv"
+
+#: src/lib/modules/post/post.php:37
+msgid "Insert into Submission"
+msgstr "In Eintrag einfügen"
+
+#: src/lib/modules/post/post.php:38
+msgid "Uploaded to this Submission"
+msgstr "Zum Eintrag hochgeladen"
+
+#: src/lib/modules/post/post.php:39
+msgid "Filter Submissions list"
+msgstr "Filter Eintragsliste"
+
+#: src/lib/modules/post/post.php:40
+msgid "Submissions list navigation"
+msgstr "Eintragsliste Navigation"
+
+#: src/lib/modules/post/post.php:41
+msgid "Submissions list"
+msgstr "Eintragsliste"
+
+#: src/lib/modules/sv_forms/sv_forms.php:13
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: src/lib/modules/sv_forms/sv_forms.php:14
+msgid "Overview & Stats"
+msgstr "Übersicht & Statistiken"
+
+#. Plugin URI of the plugin/theme
+msgid "https://straightvisions.com/"
+msgstr "https://straightvisions.com/"
+
+#. Description of the plugin/theme
+msgid "Build forms in the WordPress Gutenberg Block-Editor with ease."
+msgstr ""
+"Erstelle Formulare im WordPress Gutenberg Block-Editor mit Leichtigkeit."
+
+#. Author URI of the plugin/theme
+msgid "https://straightvisions.com"
+msgstr "https://straightvisions.com"
+
+#~ msgid "Meta Field _sv_forms_forms was cleard."
+#~ msgstr "Meta Feld _sv_forms_forms wurde geleert."
+
+#~ msgid "Empty"
+#~ msgstr "Leer"
+
+#~ msgid "Header"
+#~ msgstr "Kopfbereich"
+
+#~ msgid "Footer"
+#~ msgstr "Fußzeile"
+
+#~ msgid "Sidebar Top"
+#~ msgstr "Seitenleiste Oben"
+
+#~ msgid "Sidebar Right"
+#~ msgstr "Sidebar rechts"
+
+#~ msgid "Sidebar Bottom"
+#~ msgstr "Seitenleiste Unten"
+
+#~ msgid "Sidebar Left"
+#~ msgstr "Sidebar links"
+
+#~ msgid "Featured Image"
+#~ msgstr "Beitragsbild"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Excerpt"
+#~ msgstr "Auszug"
+
+#~ msgid "Read More"
+#~ msgstr "weiterlesen"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Date Modified"
+#~ msgstr "Datum letzte Bearbeitung"
+
+#~ msgid "Categories"
+#~ msgstr "Kategorie"
+
+#~ msgid "Extra Styles"
+#~ msgstr "Extra Styles"
+
+#~ msgid "Style Label"
+#~ msgstr "Beschriftung"
+
+#~ msgid "A label to differentiate your Styles."
+#~ msgstr "Eine Beschriftung, um deine Styles zu unterscheiden."
+
+#~ msgid "Slug"
+#~ msgstr "Slug"
+
+#~ msgid "This slug is used for the helper classes."
+#~ msgstr "Dieser Slug wird für die Helferklassen verwendet."
+
+#~ msgid "Save (classic)"
+#~ msgstr "Speichern (klassisch)"
+
+#~ msgid "Save (AJAX)"
+#~ msgstr "Speichern (AJAX)"
+
+#~ msgid "E-mail"
+#~ msgstr "E-Mail"
+
+#~ msgid "SEND"
+#~ msgstr "SENDEN"

@@ -1,0 +1,72 @@
+// Radio
+.wp-block-straightvisions-sv-forms-radio .components-radio-control__option label {
+    display: inline !important;
+    margin: 0 !important;
+}
+
+// Add Option Button
+.sv-forms-radio-options > .components-button.sv-forms-add-option {
+    display: flex;
+    color: #FFFFFF;
+    border: 1px solid #32373c;
+    background-color: #32373c;
+    margin-bottom: 18px;
+    transition: background-color .1s ease, border-color .1s;
+}
+
+.sv-forms-radio-options > .components-button.sv-forms-add-option:hover,
+.sv-forms-radio-options > .components-button.sv-forms-add-option:focus {
+    color: #FFFFFF !important;
+    border-color: #1d2023 !important;
+    background-color: #1d2023 !important;
+    box-shadow: none !important;
+}
+
+// Options
+.sv-forms-radio-options {
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.sv-forms-radio-options .sv-forms-radio-option {
+    background: rgba( 0, 0, 0, .06 );
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.sv-forms-radio-options .sv-forms-radio-option > div:last-of-type,
+.sv-forms-radio-options .sv-forms-radio-option > div:last-of-type > div,
+.sv-forms-radio-options .sv-forms-radio-option > .sv-forms-radio-option-flex > div {
+    margin-bottom: 0 !important;
+}
+
+.sv-forms-radio-options .sv-forms-radio-option .sv-forms-radio-option-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sv-forms-radio-options .sv-forms-radio-option .sv-forms-radio-option-flex > div:first-of-type {
+    margin-right: 5px;
+}
+
+.sv-forms-radio-option-flex > .components-base-control.components-toggle-control > .components-base-control__field {
+    margin-bottom: 0;
+}
+
+.sv-forms-radio-option-flex > .components-button.has-icon.sv-forms-option-remove {
+    padding: 0;
+    margin-left: 8px;
+    height: auto;
+    transition: color .1s ease;
+}
+
+.sv-forms-radio-option-flex > .components-button.has-icon.sv-forms-option-remove:hover,
+.sv-forms-radio-option-flex > .components-button.has-icon.sv-forms-option-remove:focus {
+    color: #fd5858 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}

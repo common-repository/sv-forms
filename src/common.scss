@@ -1,0 +1,77 @@
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-text,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-hidden,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-email,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-url,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-number,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-phone,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-password,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-textarea,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-select,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-date,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-checkbox,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-radio,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-range,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-submit {
+    margin-bottom: .5em;
+    margin-top: 0;
+}
+
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-text .components-base-control,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-hidden .components-base-control,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-email .components-base-control,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-url .components-base-control,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-number .components-base-control,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-phone .components-base-control,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-password .components-base-control,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-textarea .components-base-control,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-select .components-base-control,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-date .components-base-control,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-checkbox .components-base-control,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-radio .components-base-control,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-range .components-base-control,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-submit .components-base-control {
+    background-color: transparent !important;
+}
+
+.wp-block-straightvisions-sv-forms-form .sv_forms_body label {
+	display: block;
+	margin-bottom: .5em;
+}
+
+
+.wp-block-straightvisions-sv-forms-form .sv_forms_body input.components-text-control__input,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body textarea.components-textarea-control__input,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body select.components-select-control__input {
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: none;
+    display: block;
+    margin: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    width: 100%;
+    min-height: 40px;
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+    transition: color .25s ease, background-color .25s, border-color .25s ease;
+}
+
+.components-notice.sv-forms-name-check {
+	margin: -15px 0 15px 0;
+}
+
+.components-panel__row.sv-validation-min-max {
+    align-items: flex-start;
+}
+
+.components-panel__row.sv-validation-min-max > .components-base-control:first-child {
+    margin-right: 8px;
+}
+
+.components-panel__row.sv-validation-min-max .components-base-control .components-base-control__field {
+    margin-bottom: 8px;
+}

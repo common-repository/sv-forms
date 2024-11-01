@@ -1,0 +1,68 @@
+.wp-block-straightvisions-sv-forms-form > .sv_forms_header,
+.wp-block-straightvisions-sv-forms-form > .sv_forms_body {
+    padding: 20px;
+}
+
+// Header
+.wp-block-straightvisions-sv-forms-form > .sv_forms_header {
+    color: white;
+    background: linear-gradient(to right top, #00ffed, #00ede1, #00dbd5, #00c9c8, #00b8ba);
+}
+
+.wp-block-straightvisions-sv-forms-form > .sv_forms_header > .sv_forms_title_wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.wp-block-straightvisions-sv-forms-form > .sv_forms_header > .sv_forms_title_wrapper > .sv_forms_title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.wp-block-straightvisions-sv-forms-form > .sv_forms_header > .sv_forms_title_wrapper > button.components-button {
+    height: auto;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: none !important;
+    outline: none;
+    background-color: transparent !important;
+}
+
+.wp-block-straightvisions-sv-forms-form > .sv_forms_header > .sv_forms_title_wrapper > button.components-button:hover,
+.wp-block-straightvisions-sv-forms-form > .sv_forms_header > .sv_forms_title_wrapper > button.components-button:focus {
+    color: #EEEEEE !important;
+}
+
+// Input Values
+.wp-block-straightvisions-sv-forms-form > .sv_forms_header > .sv_forms_input_values_wrapper {
+    margin-top: 10px;
+}
+
+.wp-block-straightvisions-sv-forms-form > .sv_forms_header > .sv_forms_input_values_wrapper > .sv_forms_input_values_title {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.wp-block-straightvisions-sv-forms-form > .sv_forms_header > .sv_forms_input_values_wrapper > .sv_forms_input_values {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.wp-block-straightvisions-sv-forms-form > .sv_forms_header > .sv_forms_input_values_wrapper > .sv_forms_input_values > .sv_forms_input_value {
+    padding: 4px 6px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+// Body
+.wp-block-straightvisions-sv-forms-form > .sv_forms_body {
+    border: 4px solid;
+    border-image-source: linear-gradient(to right bottom, #00ffed, #00ede1, #00dbd5, #00c9c8, #00b8ba);
+    border-image-slice: 1;
+}

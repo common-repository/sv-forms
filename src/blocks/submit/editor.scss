@@ -1,0 +1,29 @@
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-submit .block-editor-rich-text__editable {
+	font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: none;
+    display: inline;
+    margin: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    min-height: 40px;
+    outline: none;
+	text-decoration: none;
+	text-align: center;
+    transition: color .25s ease, background-color .25s, border-color .25s ease;
+}
+
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-submit .block-editor-rich-text__editable:hover,
+.wp-block-straightvisions-sv-forms-form .sv_forms_body .wp-block-straightvisions-sv-forms-submit .block-editor-rich-text__editable:focus {
+	border-color: #000 !important;
+}
+
+.wp-block-straightvisions-sv-forms-form .sv_forms_body div[data-type="straightvisions/sv-forms-submit"][data-align="full"] .wp-block-straightvisions-sv-forms-submit .block-editor-rich-text__editable {
+	display: block;
+    width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

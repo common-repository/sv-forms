@@ -1,0 +1,4 @@
+.wp-block-straightvisions-sv-forms-textarea textarea {
+	resize: vertical;
+	min-height: 200px !important;
+}

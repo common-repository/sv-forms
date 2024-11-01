@@ -1,0 +1,5 @@
+.wp-block-straightvisions-sv-forms-select select {
+    cursor: pointer;
+    -webkit-appearance: menulist !important;
+    -moz-appearance: menulist !important;
+}

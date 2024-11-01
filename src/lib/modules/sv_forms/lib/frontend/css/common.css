@@ -1,0 +1,77 @@
+.wp-block-straightvisions-sv-forms-wrapper:not(.alignfull){
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-text,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-email,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-url,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-number,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-phone,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-password,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-textarea,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-select,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-date,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-checkbox,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-radio,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-range,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-file,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-submit {
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+.wp-block-straightvisions-sv-forms-form label {
+	display: block;
+	margin-bottom: .5em;
+}
+
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-text input,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-email input,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-url input,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-number input,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-phone input,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-password input,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-textarea textarea,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-select select,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-date input,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-file input,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-submit button {
+	font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    box-shadow: none;
+    display: block;
+    margin: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    min-height: 40px;
+    outline: none;
+    text-decoration: none;
+    transition: color .25s ease, background-color .25s, border-color .25s ease;
+}
+
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-text input,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-email input,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-url input,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-number input,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-phone input,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-password input,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-textarea textarea,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-select select,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-date input,
+.wp-block-straightvisions-sv-forms-form .wp-block-straightvisions-sv-forms-file input {
+    width: 100%;
+}
+
+.sv_forms_sv_forms_wrapper_loader{
+    display:none;
+}
+.sv_forms_sv_forms_wrapper_loader.show{
+    display:block;
+}
